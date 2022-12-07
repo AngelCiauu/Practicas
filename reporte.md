@@ -79,7 +79,11 @@ A continuación se muestran los dos circuitos que se realizaron, sólo se agreg�
 ### Circuito con rectificador de media onda
 ![Esquemático 1.2 \label{Esquemático 1.2}](media/practica-01/Esquematico1-1.png)
 ## Resultados y Conclusiones
-Se pudo observar mediante la creación del circuito la forma en la que la corriente varía cuando se tiene y cuando no se tiene un diodo rectificador. En esta práctica, debido a la simpleza se optó por realizar las simulaciones para poder observar el comportamiento del voltaje en ambas situaciones. En la primera se puede observar como se muestra a continuación que el LED recibe tanto
+Se pudo observar mediante la creación del circuito la forma en la que la corriente varía cuando se tiene y cuando no se tiene un diodo rectificador. Debido a la simpleza, se optó por realizar las simulaciones para poder observar el comportamiento de la corriente en ambas situaciones. En la primera se puede observar que el LED recibe tanto la parte negativa como la positiva de la corriente. Cabe recalcar que este dispositivo es un diodo, por ello no se recomienda que absorba el ciclo negativo a través del cátodo, ya que puede disminuir la vida útil del componente. En la siguiente imagen se puede observar que el LED recibe ambas partes de la onda.
+
+![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.png)
+
+En cambio, al colocar el diodo el LED únicamente recibe el
 \newpage
 
 # SCR
