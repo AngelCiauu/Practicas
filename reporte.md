@@ -71,6 +71,7 @@ A continuación se presenta la lista de los componentes utilizados en ambos caso
 | LED               | 1        |
 | Diodo 1N4007      | 1        |
 | Resistencia 30K   | 1        |
+
 ## Esquemático
 A continuación se muestran los dos circuitos que se realizaron, sólo se agregó un diodo en el segundo circuito.  Este cambio resultó en una gran diferencia que se abordará a profundidad en los resultados.
 ### Circuito sin rectificador
@@ -78,7 +79,7 @@ A continuación se muestran los dos circuitos que se realizaron, sólo se agreg�
 ### Circuito con rectificador de media onda
 ![Esquemático 1.2 \label{Esquemático 1.2}](media/practica-01/Esquematico1-1.png)
 ## Resultados y Conclusiones
-
+Se pudo observar mediante la creación del circuito la forma en la que la corriente varía cuando se tiene y cuando no se tiene un diodo rectificador. En esta práctica, debido a la simpleza se optó por realizar las simulaciones para poder observar el comportamiento del voltaje en ambas situaciones. En la primera se puede observar como se muestra a continuación que el LED recibe tanto
 \newpage
 
 # SCR
