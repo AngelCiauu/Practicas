@@ -181,6 +181,8 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 \newpage
 # Enclavamiento Electromagnético
 
+eeeeeeeeee
+
 ## Introducción
 
 ## Objetivo
