@@ -3,7 +3,7 @@ title: Prácticas de Electrónica de Potencia
 author:
 - Angel Esteban Arroyo Ciau
 - David Alberto Huchim Sosa
-- Wilberth Eduardo Lopez Gomez
+- Wilberth Eduardo López Gómez
 - Felipe Sánchez Soberanis
 date: 8 de diciembre de 2022
 
@@ -89,17 +89,46 @@ En cambio, al colocar el diodo el LED únicamente recibe la corriente que permit
 
 \newpage
 
-# SCR
+# Práctica #2: Silicon Controlled Rectifier (SCR)
 
 ## Introducción
 
+Mediante dos arreglos distintos, se controlará una fuente de iluminación mediante el uso de un SCR.
+
 ## Objetivo
+
+Se demostrará el funcionamiento básico de un dispositivo SCR por medio del encendido de un foco que se alimenta a 12V, asi como se evaluará las condiciones para su conducción entre terminales mediante dos botones, uno para encalavar el flujo de corriente y el foco permanezca encendido, y otro como botón de paro, el cual cesará el flujo de corriente y apagará el foco.  
 
 ## Marco teórico
 
+### Rectificador Controlado de Silicio (SCR)
+
+El dispositivo fué presentado por primera vez en 1956 por Bell Telephone Laboratories. Algunas de las áreas más comunes de aplicación de los SCR incluyen controles de relevador, circuitos de retardo de tiempo, fuentes de potencias reguladas, interruptores estáticos, controles de motor, inversores, cicloconvertidores, cargadores de batería, controles de fase, entre otros dispositivos.
+
+En la actualidad, los dispositivos SCR han sido diseñados para controlar potencias tan altas como 10MW con valores nominales individuales hasta de 2000A a 1800V. Su intervalo de frecuencia de amplificación tambien se ha ampliado hasta 50kHz, lo que ha permitido algunas aplicaciones como calefacción por inducción y limpieza ultrasónica.
+
+El símbolo gráfico del SCR se puede apreciar a continuación:
+
+---------------- INSERTE IMAGEN DE SIMBOLO SCR --------------------
+
+
 ## Materiales
 
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Cable cal. 22           | 2m       |
+| Clavija con cable       | 1        |
+| Puente de diodos        | 1        |
+| Capacitor 470uF a 25V   | 1        |
+| Transformador de 12V    | 1        |
+| Botones de pulso        | 2        |
+| SCR mod. C10GB a 4A     | 1        |
+| Foco de 12V             | 1        |
+| Resistencia 100kohm     | 1        |
+
 ## Esquemático
+
+IMAGEN DE CIAU
 
 ## Resultados
 
