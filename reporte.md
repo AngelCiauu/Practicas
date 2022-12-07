@@ -72,6 +72,9 @@ A continuación se presenta la lista de los componentes utilizados en ambos caso
 | Diodo 1N4007      | 1        |
 | Resistencia 30K   | 1        |
 ## Esquemático
+### Circuito sin rectificador
+![Esquemático 1.1 \label{Esquemático 1.1}](media/practica-01/Esquematico1.png)
+### Circuito con rectificador de media onda
 
 ## Resultados y Conclusiones
 
