@@ -83,7 +83,10 @@ Se pudo observar mediante la creación del circuito la forma en la que la corrie
 
 ![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.png)
 
-En cambio, al colocar el diodo el LED únicamente recibe el
+En cambio, al colocar el diodo el LED únicamente recibe la corriente que permite pasar y el lado negativo pasa a través del diodo en paralelo. De esta manera la corriente en el LED se comporta de la manera que se muestra a continuación.
+
+![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.png)
+
 \newpage
 
 # SCR
