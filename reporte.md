@@ -306,6 +306,27 @@ Este tipo de motores se suelen utilizar cuando no se dispone de una red trifási
 
 Este tipo de motores se pueden encontrar instalados en hormigoneras, amoladoras, mesas de trabajo, ventilación, bombas de agua, tornos, compresores de aire, sierras circulares, etc.
 
+### Compuerta lógica
+
+Las Compuertas Lógicas son circuitos electrónicos conformados internamente por transistores que se encuentran con arreglos especiales con los que otorgan señales de voltaje como resultado o una salida de forma booleana, están obtenidos por operaciones lógicas binarias (suma, multiplicación). También niegan, afirman, incluyen o excluyen según sus propiedades lógicas. Estas compuertas se pueden aplicar en otras áreas de la ciencia como mecánica, hidráulica o neumática.
+
+Existen diferentes tipos de compuertas y algunas de estas son más complejas, con la posibilidad de ser simuladas por compuertas más sencillas. Todas estas tienen tablas de verdad que explican los comportamientos en los resultados que otorga, dependiendo del valor booleano que tenga en cada una de sus entradas.
+
+### MOC3011
+
+El MOC3011-M es un Optoacoplador con salida de controlador Triac de fase aleatoria que contiene un diodo emisor de infrarrojos GaAs y un interruptor bilateral de silicio activado de luz, que funciona como un triac. Está diseñado para ser la interfaz entre los controles electrónicos y los triacs de potencia para controlar cargas resistivas e inductivas para operaciones de 115VCA.
+
+### Triac
+
+El TRIAC es un componente electrónico semiconductor de tres terminales para controlar la corriente. Su nombre viene del término TRIode for Alternating Current = Triodo Para Corriente Alterna.
+Un triac se utiliza para controlar una carga de CA (corriente alterna), semejante a como un transistor se puede utilizar para controlar una carga de CC (corriente continua).En definitiva, es un interruptor electrónico pero para corriente alterna.
+
+
+### Interruptor centrífugo
+
+Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuerza centrífuga creada desde un eje de rotación, lo más común es que sea de un motor eléctrico o de un motor de gasolina. El interruptor se diseña para activar o para desactivar en función de la velocidad rotatoria del eje.
+
+
 
 ## Materiales
 
@@ -407,3 +428,5 @@ Este tipo de motores se pueden encontrar instalados en hormigoneras, amoladoras,
 - https://www.solerpalau.com/es-es/blog/motor-monofasico/ 
 
 - https://www.zuendo.com/smartblog/38_motor-electrico-y-funciones.html
+
+- https://www.logicbus.com.mx/compuertas-logicas.php
