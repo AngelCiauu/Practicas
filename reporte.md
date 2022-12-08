@@ -193,11 +193,31 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ## Marco teórico
 
+### MAC223
+
+El triac es un dispositivo semiconductor de tres terminales que se usa para controlar el flujo de corriente promedio a una carga, con la particularidad de que conduce en ambos sentidos y puede ser bloqueado por inversión de la tensión o al disminuir la corriente por debajo del valor de mantenimiento. El triac puede ser disparado independientemente de la polarización de puerta, es decir, mediante una corriente de puerta positiva o negativa.
+
+Cuando el triac conduce, hay una trayectoria de flujo de corriente de muy baja resistencia de una terminal a la otra, dependiendo la dirección de flujo de la polaridad del voltaje externo aplicado.
+
+El MAC223A8 (\cref{mac223}) es un TRIAC estándar de 25 A diseñado para aplicaciones de conmutación de CA y control de fase. Este normalmente funciona en los cuadrantes I y III activados desde la línea de CA.
+
+![Encapsulado MAC223. \label{mac223}](media/practica-05/mac223.png){width=15%}
+
+### MOC3011
+
+Este (\cref{moc3011}) consta de un diodo emisor de infrarrojos de arseniuro de galio, acoplado ópticamente a un interruptor bilateral de silicio y está diseñado para aplicaciones que requieren disparo aislado de TRIAC,  bajo corriente de conmutación aislado de CA, un alto aislamiento eléctrico (a 7500V pico), de alto voltaje detector de punto muerto, pequeña tamaño, y de bajo costo.
+
+Un opto acoplador, también llamado optoaislador o aislador acoplado ópticamente, es un dispositivo de emisión y recepción que funciona como un interruptor activado mediante la luz emitida por un diodo LED que satura un componente opto electrónico, normalmente en forma de fototransistor o fototriac. De este modo se combinan en un solo dispositivo semiconductor, un foto emisor y un foto receptora cuya conexión entre ambos es óptica. Estos elementos se encuentran dentro de un encapsulado que por lo general es del tipo DIP. Se suelen utilizar para aislar eléctricamente a dispositivos muy sensibles.
+
+![Encapsulado MOC3011. \label{moc3011}](media/practica-05/moc3011.png){width=15%}
+
 ### CD4001
 
-Circuito integrado CMOS CD4001 que consta de cuatro compuertas NOR de dos entradas. La puerta NOR o compuerta NOR es una puerta lógica digital que implementa la disyunción lógica negada, se comporta de acuerdo a la tabla de verdad. Cuando todas sus entradas están en 0 (cero) o en BAJA, su salida está en 1 o en ALTA, mientras que cuando una sola de sus entradas o ambas están en 1 o en ALTA, su SALIDA va a estar en 0 o en BAJA. NOR es el resultado de la negación del operador OR. También puede ser visto como una puerta AND con todas las entradas invertidas. El NOR es una operación completamente funcional. Las puertas NOR se pueden combinar para generar cualquier otra función lógica. En cambio, el operador OR es monótono, ya que solo se puede cambiar BAJA a ALTA, pero no viceversa.
+Es un circuito integrado que consta de cuatro compuertas NOR de dos entradas (\cref{cd4001}). La puerta NOR o compuerta NOR es una puerta lógica digital que implementa la disyunción lógica negada, se comporta de acuerdo a la tabla de verdad. Cuando todas sus entradas están en 0 (cero) o en BAJA, su salida está en 1 o en ALTA, mientras que cuando una sola de sus entradas o ambas están en 1 o en ALTA, su SALIDA va a estar en 0 o en BAJA. NOR es el resultado de la negación del operador OR. También puede ser visto como una puerta AND con todas las entradas invertidas. El NOR es una operación completamente funcional. Las puertas NOR se pueden combinar para generar cualquier otra función lógica. En cambio, el operador OR es monótono, ya que solo se puede cambiar BAJA a ALTA, pero no viceversa.
 
 El semiconductor complementario de óxido metálico o complementary metal-oxide-semiconductor (CMOS) es una de las familias lógicas empleadas en la fabricación de circuitos integrados. Su principal característica consiste en la utilización conjunta de transistores de tipo pMOS y tipo nMOS configurados de forma tal que, en estado de reposo, el consumo de energía es únicamente el debido a las corrientes parásitas, colocado en la placa base.
+
+![Encapsulado CD4001. \label{cd4001}](media/practica-05/cd4001.png){width=15%}
 
 ## Materiales
 
