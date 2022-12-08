@@ -393,15 +393,58 @@ El principal problema que se presentó, es que el circuito nunca se desactiva co
 
 ## Introducción
 
+Esta práctica trata sobre la utilización de un LM555 para generar una señal periódica de salida con una frecuencia variable, la cual se utiliza para controlar un transistor BD135 que, a su vez, forma parte de un arreglo denominado switch unidireccional. Con este circuito, es posible "cortar" la señal de entrada y poder controlar el brillo de un foco.
+
 ## Objetivo
+
+- Implementación de un switch undireccional
+- Control de brillo de un foco
 
 ## Marco teórico
 
+### Switch unidireccional
+
+El switch unidireccional es un arreglo de diodos en forma de puente de diodos, combinado con un transistor que permite controlar la salida del puente por medio de la oscilación del transistor. Esto quiere decir que permite que una entrada AC sinusoidal tenga una salida con la misma forma, pero reduciendo la potencia total por medio de "cortar" pedazos de la señal (ver \cref{funcionamiento-unidireccional}).
+
+![Gráfica representativa del funcionamiento del switch unidireccional. \label{funcionamiento-unidireccional}](media/practica-06/funcionamiento-unidireccional.png){width=50%}
+
+### 1N4007
+
+El Diodo Rectificador 1N4007 (ver \cref{componente-1n4007}) fue inventado por John Ambrose Fleming fue un físico e ingeniero eléctrico británico realizo el descubrimiento en el año de 1904. Es considerado uno de los pioneros de la electrónica. La palabra diodo viene del vocablo  griego y se traduce como pasaje angosto. El término se ocupa en el área de la electricidad e electrónica. Es considerado un semiconductor debido a que solo permite la circulación de flujo de electrones en una única dirección con las singularidades similares a un interruptor.
+
+Su funcionamiento consiste en permitir el flujo de energía eléctrica en un solo sentido, por lo cual se comporta de dos maneras:
+
+- Polarización directa: permitiendo el paso de la corriente eléctrica.
+
+- Polarización inversa: impidiendo el paso de la corriente eléctrica.
+
+![Componente 1n4007. \label{componente-1n4007}](media/practica-06/1n4007.jpg){width=15%}
+
 ## Materiales
+
+| Componente         | Cantidad |
+| ---                | ---      |
+| Resistencia 2.2K   | 1        |
+| Potenciómetro 100K | 1        |
+| LM555              | 1        |
+| Capacitor 22uF     | 1        |
+| Capacitor 103      | 2        |
+| Resistencia 10K    | 1        |
+| BD135              | 1        |
+| Puente diodos      | 2        |
+| LM7812             | 1        |
+| Capacitor 470uF    | 1        |
+| Foco               | 1        |
 
 ## Esquemático
 
+![Circuito del chopper de la práctica 6.](media/dummy.png){width=25%}
+
 ## Resultados
+
+![Gráfica resultante del circuito chopper. \label{resultado-pracatica-06}](media/practica-06/resultado.jpeg){width=50%}
+
+Como se puede observar en la \cref{resultado-pracatica-06}, el circuito funciona y corta de manera correcta la señal AC de entrada y la controla cuando genera la salida. Esto puede ser modificado mediante el ajuste del potenciómetro de 100K para poder regular la frecuencia de la señal de corte o, en otras palabras, el espacio entre los puntos energizados de la señal de salida.
 
 \newpage
 # Práctica 7: Arranque, Reversa y Paro con Motor de Lavadora
