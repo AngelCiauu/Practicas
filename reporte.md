@@ -221,7 +221,61 @@ La presente práctica trata acerca de encender una carga mediante un interruptor
 
 ## Marco teórico
 
+### Enclavamiento
+Consiste en conectar en paralelo un contacto auxiliar (NA) con un interruptor (NC).
+
+### Contactor
+Un contactor es un elemento electromecánico que tiene la capacidad de establecer o interrumpir la corriente eléctrica de una carga, con la posibilidad de ser accionado a distancia mediante la utilización de elementos de comando, los cuales están compuesto por un circuito bobina / electroimán por la cual circula una menor corriente que la de carga en sí (incluso podría utilizarse baja tensión para el comando). Constructivamente son similares a los relés, y ambos permiten controlar en forma manual o automática, ya sea localmente o a distancia toda clase de circuitos. Pero se diferencian por la misión que cumple cada uno: los relés controlan corrientes de bajo valor como las de circuitos de alarmas visuales o sonoras, alimentación de contactores, etc. y los contactores se utilizan como interruptores electromagnéticos en la conexión y desconexión de circuitos de iluminación y fuerza motriz de elevada tensión y potencia.
+
 ## Materiales
+
+### Inciso a)
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Cable cal. 22           | 2m       |
+| Clavija con cable       | 1        |
+| Fusible 10A             | 1        |
+| Contacto NA             | 1        |
+| Contacto NC             | 1        |
+| Transformador 24V       | 1        |
+| Contactor               | 1        |
+| Motor DC                | 1        |
+
+
+
+### Inciso b)
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Puente de diodos        | 1        |
+| Clavija con cable       | 1        |
+| Puente de diodos        | 1        |
+| Capacitores 105         | 2        |
+| Cap. Electrol 100mF 35V | 1        |
+| Contacto NA             | 1        |
+| Contacto NC             | 1        |
+| Motor de ventilador     | 1        |
+| Contactor               | 1        |
+
+
+
+### Inciso c)
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Cable cal. 22           | 2m       |
+| Clavija con cable       | 1        |
+| Puente de diodos        | 1        |
+| Cap. elect. 100mF 35V   | 1        |
+| Contacto NA             | 1        |
+| Contacto NC             | 2        |
+| Capacitor 105           | 1        |
+| Contactor               | 1        |
+
+
+
+
 
 ## Esquemático
 
