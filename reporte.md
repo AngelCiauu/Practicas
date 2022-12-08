@@ -368,15 +368,74 @@ Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuer
 
 ## Introducción
 
+Con el fin de accionar un motor de lavadora y disponer de su máxima funcionalidad, recrear un circuito que accione al motor bajo accionamientos de arranque y paro. 
+
 ## Objetivo
+
+Desarrollar un circuito de corriente directa que disponga de tres botones que accionaran cambios en el sentido de giro del motor, ambos mediante enclavamientos que servirán como arranque, y uno exclusivo para detenerlo, el cual representa el botón de paro del circuito.  
 
 ## Marco teórico
 
+### encapsulado CD4013BE
+
+El CD4013 Flip-Flop Dual es un circuito integrado MOS (CMOS) está formado de transistores así que los canales tipo N y tipo P están mejorados. En su interior cuenta con 2 Flip-Flop cada uno tiene sus datos independientes: set, reset, entradas de reloj y sus salidas Q y Q(negada).
+
+### Compuerta lógica NOT
+
+En lógica digital, un inversor, puerta NOT o compuerta NOT es una puerta lógica que implementa la negación lógica. Donde la tabla de verdad queda de la siguiente manera:
+
+|     Entrada          |   Salida   |
+|:--------------------:|:----------:|
+|           0          :|     1     |
+|           1          :|     0     |
+
+la función de esta compuerta consiste en producir como salida el valor invertido de su entrada. El valor de salida de una compuerta NOT será 1 cuando su valor entrada sea 0 y será 0 cuando su valor de entrada sea 1.
+
+### Compuerta lógica AND
+
+La compuerta AND o puerta AND es una puerta lógica digital que implementa la conjunción lógica, esta tendrá una salida ALTA, únicamente cuando los valores de ambas entradas sean ALTOS. La tabla de verdad queda de la siguiente manera:
+
+|     Entrada  A        |     Entrada  B        |   Salida   |
+|:---------------------:|:---------------------:|:----------:|
+|           0          :|           0          :|     0      |
+|           0          :|           1          :|     0      |
+|           1          :|           0          :|     0      |
+|           1          :|           1          :|     1      |
+
+La compuerta AND produce la multiplicación lógica AND, esto es: la salida es 1 si la entrada A y la entrada B están ambas en el binario 1: de otra manera, la salida es 0. Estas condiciones también son especificadas en la tabla de verdad para la compuerta AND.
+
 ## Materiales
+
+|     Componente      | Cantidad |
+|:-------------------:|:--------:|
+| Cable cal. 22       | 2m       |
+| Clavija con cable   | 1        |
+| Botón de pulso      | 3        |
+| CD4013BE            | 1        |
+| 74LS04              | 1        |
+| MOC                 | 2        |
+| Triac               | 2        |
+| Resistencias 220ohm | 1        |
 
 ## Esquemático
 
+El circuito a recrear en la práctica es el siguiente:
+
+-------------------- Esquemático de la práctica ----------------------
+
+Es pertinente explicar los pines de cada compuerta lógica empleada en el circuito, por lo que se enlistan a continuación:
+
+-------------------- 74ls04 ----------------------
+
+Esta estructura para la compuerta NOT es la mayor empleada, comercialmente hablando, la cual el equipo incorporó en el circuito. 
+
+-------------------- CD4081 ----------------------
+
+Esta compuerta tiene la particularidad que funciona en un rango de 12V, los cuales son requeridos en el circuito.
+
 ## Resultados
+
+Al accionar el botón de arriba, el giro del motor es en un sentido horario en nuestro caso, cuando se pulsa el botón de enmedio se detiene el motor y a continuación se presiona el botón de abajo, el cual cambia el sentido de giro a antihorario, donde podemos concluir que el circuito funciona en óptimas condiciones. De igual manera, cabe aclarar que es indiferente si se presiona el botón de giro horario o antihorario de primero, el funcionamiento es el mismo. 
 
 \newpage
 # Dimmer con Triac
