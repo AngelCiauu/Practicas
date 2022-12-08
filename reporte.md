@@ -96,7 +96,7 @@ En cambio, al colocar el diodo el LED únicamente recibe la corriente que permit
 Es de suma importancia conocer el funcionamiento interno de los componentes para realizar el diseño de un circuito. Esto nos permite una mejor comprensión en caso de tener errores o que algo no funcione como se espera. Esta práctica sentó las bases de la interacción de la corriente con los diodos, nos permitió observar de manera gráfica cómo funcionan y la utilidad que presentan en un caso aplicativo.
 \newpage
 
-# Práctica #2: Silicon Controlled Rectifier (SCR)
+# Práctica 2: Silicon Controlled Rectifier (SCR)
 
 ## Introducción
 
@@ -140,7 +140,7 @@ IMAGEN DE CIAU
 ## Resultados
 
 \newpage
-# On Delay 120V
+# Práctica 3: On Delay 120V
 
 ## Introducción
 
@@ -215,7 +215,7 @@ En el inciso b, se utiliza el LM555 en el modo de retardo de tiempo, específica
 En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza como un módulo para un circuito más grande. Este nuevo circuit cuenta con el timer y un contactor, conectado de manera que se tenga un enclavamiento. Esto logra que, una vez pasado el tiempo de retardo del timer, el foco se activa y, al mismo tiempo, se activa el enclavamiento, manteniendo encendido el foco, siempre y cuando no se desenclave por medio del butón normalmente cerrado.
 
 \newpage
-# Enclavamiento Electromagnético
+# Práctica 4: Enclavamiento Electromagnético
 
 
 ## Introducción
@@ -294,7 +294,7 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 ## Resultados
 
 \newpage
-# Arranque, Reversa y Paro con Motor Monofásico
+# Práctica 5: Arranque, Reversa y Paro con Motor Monofásico
 
 ## Introducción
 
@@ -389,7 +389,7 @@ Por el otro lado, presionando primero el botón de cambio de dirección y, por e
 El principal problema que se presentó, es que el circuito nunca se desactiva comletamente, siempre hay una pequeña corriente no deseada. Esto quiere decir que, a pesar de presionar el botón de off (desenclavamiento), el motor continúa girando en un sentido, pero más lento que cuando está activado. Esto es debido, principalmente, a la calidad de los componentes utilizados en el circuito, ya que se usaron componentes principalmente genéricos, por el precio. Si se utilizan componentes más especializados para esta tarea, este error desaparecerá.
 
 \newpage
-# Chopper
+# Práctica 6: Chopper
 
 ## Introducción
 
@@ -404,7 +404,7 @@ El principal problema que se presentó, es que el circuito nunca se desactiva co
 ## Resultados
 
 \newpage
-# Arranque, Reversa y Paro con Motor de Lavadora
+# Práctica 7: Arranque, Reversa y Paro con Motor de Lavadora
 
 ## Introducción
 
@@ -478,7 +478,7 @@ Esta compuerta tiene la particularidad que funciona en un rango de 12V, los cual
 Al accionar el botón de arriba, el giro del motor es en un sentido horario en nuestro caso, cuando se pulsa el botón de enmedio se detiene el motor y a continuación se presiona el botón de abajo, el cual cambia el sentido de giro a antihorario, donde podemos concluir que el circuito funciona en óptimas condiciones. De igual manera, cabe aclarar que es indiferente si se presiona el botón de giro horario o antihorario de primero, el funcionamiento es el mismo.
 
 \newpage
-# Dimmer con Triac
+# Práctica 8: Dimmer con Triac
 
 ## Introducción
 
@@ -525,7 +525,7 @@ Un potenciómetro es un componente electrónico similar a los resistores pero cu
 ## Resultados
 
 \newpage
-# Dimmer Doble con SCR
+# Práctica 9: Dimmer Doble con SCR
 
 ## Introducción
 
@@ -540,7 +540,7 @@ Un potenciómetro es un componente electrónico similar a los resistores pero cu
 ## Resultados
 
 \newpage
-# Flyback
+# Práctica 10: Flyback
 
 ## Introducción
 
