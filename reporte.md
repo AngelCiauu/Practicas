@@ -188,7 +188,16 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ## Objetivo
 
+- Implementación de un arranque y paro, con enclavamiento, por medio de compuertas NOR
+- Utilización del arraqnue y paro junto con un un circuito de potencia para controler el sentido del giro de un motor monofásico
+
 ## Marco teórico
+
+### CD4001
+
+Circuito integrado CMOS CD4001 que consta de cuatro compuertas NOR de dos entradas. La puerta NOR o compuerta NOR es una puerta lógica digital que implementa la disyunción lógica negada, se comporta de acuerdo a la tabla de verdad. Cuando todas sus entradas están en 0 (cero) o en BAJA, su salida está en 1 o en ALTA, mientras que cuando una sola de sus entradas o ambas están en 1 o en ALTA, su SALIDA va a estar en 0 o en BAJA. NOR es el resultado de la negación del operador OR. También puede ser visto como una puerta AND con todas las entradas invertidas. El NOR es una operación completamente funcional. Las puertas NOR se pueden combinar para generar cualquier otra función lógica. En cambio, el operador OR es monótono, ya que solo se puede cambiar BAJA a ALTA, pero no viceversa.
+
+El semiconductor complementario de óxido metálico o complementary metal-oxide-semiconductor (CMOS) es una de las familias lógicas empleadas en la fabricación de circuitos integrados. Su principal característica consiste en la utilización conjunta de transistores de tipo pMOS y tipo nMOS configurados de forma tal que, en estado de reposo, el consumo de energía es únicamente el debido a las corrientes parásitas, colocado en la placa base.
 
 ## Materiales
 
