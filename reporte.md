@@ -571,12 +571,34 @@ Un potenciómetro es un componente electrónico similar a los resistores pero cu
 # Práctica 9: Dimmer Doble con SCR
 
 ## Introducción
+La presente práctica consiste en recortar los valles positivos o negativos, según sea el caso, de una señal sinusoidal usando dos dispositivos SCR y regulados por un potenciómetro. Al recortar dicha señal se podrá observar que sube o baja la intensidad de un foco incandescente.
 
 ## Objetivo
 
+- Variar la energía que recibe un foco incandescente y a su vez regular su intensidad de luz, utilizando un dimmer con doble SCR
+
 ## Marco teórico
 
+### Dimmer
+Un dimmer, regulador, atenuador o dímer, sirve para regular la energía en uno o varios focos con el fin de variar la intensidad de la luz que emiten, cuando las propiedades de la lámpara lo hacen posible.
+
+### SCR (Rectificador controlado de silicio)
+El rectificador controlado de silicio es un tipo de tiristor formado por cuatro capas de material semiconductor con estructura PNPN o bien NPNP.
+
 ## Materiales
+
+|     Componente            | Cantidad |
+|:-----------------------:  |:--------:|
+|Switch cola de rata        |1         |
+|Foco 12 V                  |1         |
+|SCR Tic126                 |2         |
+|Potenciómetro 50Kohm       |2         |
+|Resistencia 100 Ohms       |2         |
+|Cap. Electr. 47uF          |1         |
+|TResistencia 10k           |1         |
+|Diodo in4007               |2         |
+|Transformador 12V          |1         |
+
 
 ## Esquemático
 
@@ -645,3 +667,5 @@ Mediante la prueba en físico de la práctica, se apreció que la mayor distanci
 - https://es.wikipedia.org/wiki/Diac
 
 - https://www.etsist.upm.es/estaticos/ingeniatic/index.php/tecnologias/item/556-potenciómmetro%3Ftmpl=component&print=1.html
+
+- https://es.wikipedia.org/wiki/Rectificador_controlado_de_silicio
