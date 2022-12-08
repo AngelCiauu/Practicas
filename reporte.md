@@ -575,7 +575,7 @@ La presente práctica consiste en recortar los valles positivos o negativos, seg
 
 ## Objetivo
 
-- Regular la energía que recibe un foco incandescente, regulando su intensidad de luz, utilizando un dimmer con doble SCR
+- Variar la energía que recibe un foco incandescente y a su vez regular su intensidad de luz, utilizando un dimmer con doble SCR
 
 ## Marco teórico
 
