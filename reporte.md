@@ -291,11 +291,36 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 
 ## Introducción
 
+La presente práctica trata acerca de cambiar el sentido de giro de un motor, así como también encenderlo y apagarlo mediante interruptores empleando compuertas lógicas NOR
+
 ## Objetivo
+- Encender, apagar y cambiar el sentido de giro de un motor monofásico
 
 ## Marco teórico
 
+### Motor monofásico
+
+Un motor monofásico es una máquina capaz de provocar una rotación en su eje al alimentarlo eléctricamente.
+
+Este tipo de motores se suelen utilizar cuando no se dispone de una red trifásica a 380v generalmente usada en la industria y además se requiere de una baja potencia (de hasta 4 kW / 5 CV). El control que se va a realizar tiene que ser muy básico como un marcha-paro y cambio en el sentido de giro.
+
+Este tipo de motores se pueden encontrar instalados en hormigoneras, amoladoras, mesas de trabajo, ventilación, bombas de agua, tornos, compresores de aire, sierras circulares, etc.
+
+
 ## Materiales
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+
 
 ## Esquemático
 
@@ -376,3 +401,9 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 
 ## Resultados
 
+\newpage
+# Referencias (actualizar)
+
+- https://www.solerpalau.com/es-es/blog/motor-monofasico/ 
+
+- https://www.zuendo.com/smartblog/38_motor-electrico-y-funciones.html
