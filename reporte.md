@@ -587,6 +587,19 @@ El rectificador controlado de silicio es un tipo de tiristor formado por cuatro 
 
 ## Materiales
 
+|     Componente            | Cantidad |
+|:-----------------------:  |:--------:|
+|Switch cola de rata        |1         |
+|Foco 12 V                  |1         |
+|SCR Tic126                 |2         |
+|Potenciómetro 50Kohm       |2         |
+|Resistencia 100 Ohms       |2         |
+|Cap. Electr. 47uF          |1         |
+|TResistencia 10k           |1         |
+|Diodo in4007               |2         |
+|Transformador 12V          |1         |
+
+
 ## Esquemático
 
 ## Resultados
