@@ -386,8 +386,8 @@ En lógica digital, un inversor, puerta NOT o compuerta NOT es una puerta lógic
 
 |     Entrada          |   Salida   |
 |:--------------------:|:----------:|
-|           0          :|     1     |
-|           1          :|     0     |
+|           0          |     1     |
+|           1          |     0     |
 
 la función de esta compuerta consiste en producir como salida el valor invertido de su entrada. El valor de salida de una compuerta NOT será 1 cuando su valor entrada sea 0 y será 0 cuando su valor de entrada sea 1.
 
@@ -397,10 +397,10 @@ La compuerta AND o puerta AND es una puerta lógica digital que implementa la co
 
 |     Entrada  A        |     Entrada  B        |   Salida   |
 |:---------------------:|:---------------------:|:----------:|
-|           0          :|           0          :|     0      |
-|           0          :|           1          :|     0      |
-|           1          :|           0          :|     0      |
-|           1          :|           1          :|     1      |
+|           0           |           0           |     0      |
+|           0           |           1           |     0      |
+|           1           |           0           |     0      |
+|           1           |           1           |     1      |
 
 La compuerta AND produce la multiplicación lógica AND, esto es: la salida es 1 si la entrada A y la entrada B están ambas en el binario 1: de otra manera, la salida es 0. Estas condiciones también son especificadas en la tabla de verdad para la compuerta AND.
 
