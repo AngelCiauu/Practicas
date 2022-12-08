@@ -77,21 +77,21 @@ A continuación se muestran los dos circuitos que se realizaron, sólo se agreg�
 
 ### Circuito sin rectificador
 
-![Esquemático 1.1 \label{Esquemático 1.1}](media/practica-01/Esquematico1.png)
+![Esquemático 1.1 \label{Esquemático 1.1}](media/practica-01/Esquematico1.PNG)
 
 ### Circuito con rectificador de media onda
 
-![Esquemático 1.2 \label{Esquemático 1.2}](media/practica-01/Esquematico1-1.png)
+![Esquemático 1.2 \label{Esquemático 1.2}](media/practica-01/Esquematico1-1.PNG)
 
 ## Resultados y Conclusiones
 
 Se pudo observar mediante la creación del circuito la forma en la que la corriente varía cuando se tiene y cuando no se tiene un diodo rectificador. Debido a la simpleza, se optó por realizar las simulaciones para poder observar el comportamiento de la corriente en ambas situaciones. En la primera se puede observar que el LED recibe tanto la parte negativa como la positiva de la corriente. Cabe recalcar que este dispositivo es un diodo, por ello no se recomienda que absorba el ciclo negativo a través del cátodo, ya que puede disminuir la vida útil del componente. En la siguiente imagen se puede observar que el LED recibe ambas partes de la onda.
 
-![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.png)
+![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.PNG)
 
 En cambio, al colocar el diodo el LED únicamente recibe la corriente que permite pasar y el lado negativo pasa a través del diodo en paralelo. De esta manera la corriente en el LED se comporta de la manera que se muestra a continuación.
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.png)
+![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG)
 
 Es de suma importancia conocer el funcionamiento interno de los componentes para realizar el diseño de un circuito. Esto nos permite una mejor comprensión en caso de tener errores o que algo no funcione como se espera. Esta práctica sentó las bases de la interacción de la corriente con los diodos, nos permitió observar de manera gráfica cómo funcionan y la utilidad que presentan en un caso aplicativo.
 \newpage
@@ -335,8 +335,6 @@ El semiconductor complementario de óxido metálico o complementary metal-oxide-
 
 ![Encapsulado CD4001. \label{cd4001}](media/practica-05/cd4001.png){width=15%}
 
-||||||| 71ffd98
-=======
 ### Motor monofásico
 
 Un motor monofásico es una máquina capaz de provocar una rotación en su eje al alimentarlo eléctricamente.
@@ -345,29 +343,10 @@ Este tipo de motores se suelen utilizar cuando no se dispone de una red trifási
 
 Este tipo de motores se pueden encontrar instalados en hormigoneras, amoladoras, mesas de trabajo, ventilación, bombas de agua, tornos, compresores de aire, sierras circulares, etc.
 
-### Compuerta lógica
-
-Las Compuertas Lógicas son circuitos electrónicos conformados internamente por transistores que se encuentran con arreglos especiales con los que otorgan señales de voltaje como resultado o una salida de forma booleana, están obtenidos por operaciones lógicas binarias (suma, multiplicación). También niegan, afirman, incluyen o excluyen según sus propiedades lógicas. Estas compuertas se pueden aplicar en otras áreas de la ciencia como mecánica, hidráulica o neumática.
-
-Existen diferentes tipos de compuertas y algunas de estas son más complejas, con la posibilidad de ser simuladas por compuertas más sencillas. Todas estas tienen tablas de verdad que explican los comportamientos en los resultados que otorga, dependiendo del valor booleano que tenga en cada una de sus entradas.
-
-### MOC3011
-
-El MOC3011-M es un Optoacoplador con salida de controlador Triac de fase aleatoria que contiene un diodo emisor de infrarrojos GaAs y un interruptor bilateral de silicio activado de luz, que funciona como un triac. Está diseñado para ser la interfaz entre los controles electrónicos y los triacs de potencia para controlar cargas resistivas e inductivas para operaciones de 115VCA.
-
-### Triac
-
-El TRIAC es un componente electrónico semiconductor de tres terminales para controlar la corriente. Su nombre viene del término TRIode for Alternating Current = Triodo Para Corriente Alterna.
-Un triac se utiliza para controlar una carga de CA (corriente alterna), semejante a como un transistor se puede utilizar para controlar una carga de CC (corriente continua).En definitiva, es un interruptor electrónico pero para corriente alterna.
-
-
 ### Interruptor centrífugo
 
 Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuerza centrífuga creada desde un eje de rotación, lo más común es que sea de un motor eléctrico o de un motor de gasolina. El interruptor se diseña para activar o para desactivar en función de la velocidad rotatoria del eje.
 
-
-
->>>>>>> 8c74ec1acc14512ed1ffa652b42e37c29d0306e4
 ## Materiales
 
 - 1 CD4001
@@ -383,22 +362,6 @@ Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuer
 - Resistencias 2.2K
 - Resistencias 220
 
-||||||| 71ffd98
-=======
-|     Componente          | Cantidad |
-|:-----------------------:|:--------:|
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-
-
->>>>>>> 8c74ec1acc14512ed1ffa652b42e37c29d0306e4
 ## Esquemático
 
 ![Circuito de la práctica 5. \label{practica-05-diagrama}](media/dummy.png){width=50%}
