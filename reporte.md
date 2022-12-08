@@ -26,7 +26,7 @@ lang: es
 ---
 
 \newpage
-# LED AC Rectificador
+# Práctica 1: LED AC Rectificador
 
 ## Introducción
 
