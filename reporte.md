@@ -3,7 +3,7 @@ title: Prácticas de Electrónica de Potencia
 author:
 - Angel Esteban Arroyo Ciau
 - David Alberto Huchim Sosa
-- Wilberth Eduardo Lopez Gomez
+- Wilberth Eduardo López Gómez
 - Felipe Sánchez Soberanis
 date: 8 de diciembre de 2022
 
@@ -89,17 +89,46 @@ En cambio, al colocar el diodo el LED únicamente recibe la corriente que permit
 
 \newpage
 
-# SCR
+# Práctica #2: Silicon Controlled Rectifier (SCR)
 
 ## Introducción
 
+Mediante dos arreglos distintos, se controlará una fuente de iluminación mediante el uso de un SCR.
+
 ## Objetivo
+
+Se demostrará el funcionamiento básico de un dispositivo SCR por medio del encendido de un foco que se alimenta a 12V, asi como se evaluará las condiciones para su conducción entre terminales mediante dos botones, uno para encalavar el flujo de corriente y el foco permanezca encendido, y otro como botón de paro, el cual cesará el flujo de corriente y apagará el foco.  
 
 ## Marco teórico
 
+### Rectificador Controlado de Silicio (SCR)
+
+El dispositivo fué presentado por primera vez en 1956 por Bell Telephone Laboratories. Algunas de las áreas más comunes de aplicación de los SCR incluyen controles de relevador, circuitos de retardo de tiempo, fuentes de potencias reguladas, interruptores estáticos, controles de motor, inversores, cicloconvertidores, cargadores de batería, controles de fase, entre otros dispositivos.
+
+En la actualidad, los dispositivos SCR han sido diseñados para controlar potencias tan altas como 10MW con valores nominales individuales hasta de 2000A a 1800V. Su intervalo de frecuencia de amplificación tambien se ha ampliado hasta 50kHz, lo que ha permitido algunas aplicaciones como calefacción por inducción y limpieza ultrasónica.
+
+El símbolo gráfico del SCR se puede apreciar a continuación:
+
+---------------- INSERTE IMAGEN DE SIMBOLO SCR --------------------
+
+
 ## Materiales
 
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Cable cal. 22           | 2m       |
+| Clavija con cable       | 1        |
+| Puente de diodos        | 1        |
+| Capacitor 470uF a 25V   | 1        |
+| Transformador de 12V    | 1        |
+| Botones de pulso        | 2        |
+| SCR mod. C10GB a 4A     | 1        |
+| Foco de 12V             | 1        |
+| Resistencia 100kohm     | 1        |
+
 ## Esquemático
+
+IMAGEN DE CIAU
 
 ## Resultados
 
@@ -181,13 +210,77 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 \newpage
 # Enclavamiento Electromagnético
 
+
 ## Introducción
+
+La presente práctica trata acerca de encender una carga mediante un interruptor (Contacto NC) y mantenerla energizada a través de un enclavamiento electromagnético, esto al conectar en paralelo un contacto auxiliar con el interruptor antes mencionado. 
 
 ## Objetivo
 
+- Encender un motor a través de un interruptor (NC) y cortar la energía a través de un interruptor normalmente abierto.
+
 ## Marco teórico
 
+### Enclavamiento
+Consiste en conectar en paralelo un contacto auxiliar (NA) con un interruptor (NC).
+
+### Contactor
+Un contactor es un elemento electromecánico que tiene la capacidad de establecer o interrumpir la corriente eléctrica de una carga, con la posibilidad de ser accionado a distancia mediante la utilización de elementos de comando, los cuales están compuesto por un circuito bobina / electroimán por la cual circula una menor corriente que la de carga en sí (incluso podría utilizarse baja tensión para el comando). Constructivamente son similares a los relés, y ambos permiten controlar en forma manual o automática, ya sea localmente o a distancia toda clase de circuitos. Pero se diferencian por la misión que cumple cada uno: los relés controlan corrientes de bajo valor como las de circuitos de alarmas visuales o sonoras, alimentación de contactores, etc. y los contactores se utilizan como interruptores electromagnéticos en la conexión y desconexión de circuitos de iluminación y fuerza motriz de elevada tensión y potencia.
+
 ## Materiales
+
+### Inciso a)
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Cable cal. 22           | 2m       |
+| Clavija con cable       | 1        |
+| Fusible 10A             | 1        |
+| Contacto NA             | 1        |
+| Contacto NC             | 1        |
+| Transformador 24V       | 1        |
+| Contactor               | 1        |
+| Motor DC                | 1        |
+| ITM                     | 1        |
+| Fusible 10A             | 1        |
+
+
+### Inciso b)
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Puente de diodos        | 1        |
+| Clavija con cable       | 1        |
+| Puente de diodos        | 1        |
+| Capacitores 105         | 2        |
+| Cap. Electrol 100mF 35V | 1        |
+| Contacto NA             | 1        |
+| Contacto NC             | 1        |
+| Motor de ventilador     | 1        |
+| Contactor               | 1        |
+| ITM                     | 1        |
+| Fusible 10A             | 1        |
+
+
+
+### Inciso c)
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+| Cable cal. 22           | 2m       |
+| Clavija con cable       | 1        |
+| Puente de diodos        | 1        |
+| Cap. elect. 100mF 35V   | 1        |
+| Contacto NA             | 1        |
+| Contacto NC             | 1        |
+| Capacitor 105           | 2        |
+| Contactor               | 1        |
+| ITM                     | 1        |
+| Fusible 10A             | 1        |
+
+
+
+
 
 ## Esquemático
 
@@ -198,11 +291,57 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ## Introducción
 
+La presente práctica trata acerca de cambiar el sentido de giro de un motor, así como también encenderlo y apagarlo mediante interruptores empleando compuertas lógicas NOR
+
 ## Objetivo
+- Encender, apagar y cambiar el sentido de giro de un motor monofásico
 
 ## Marco teórico
 
+### Motor monofásico
+
+Un motor monofásico es una máquina capaz de provocar una rotación en su eje al alimentarlo eléctricamente.
+
+Este tipo de motores se suelen utilizar cuando no se dispone de una red trifásica a 380v generalmente usada en la industria y además se requiere de una baja potencia (de hasta 4 kW / 5 CV). El control que se va a realizar tiene que ser muy básico como un marcha-paro y cambio en el sentido de giro.
+
+Este tipo de motores se pueden encontrar instalados en hormigoneras, amoladoras, mesas de trabajo, ventilación, bombas de agua, tornos, compresores de aire, sierras circulares, etc.
+
+### Compuerta lógica
+
+Las Compuertas Lógicas son circuitos electrónicos conformados internamente por transistores que se encuentran con arreglos especiales con los que otorgan señales de voltaje como resultado o una salida de forma booleana, están obtenidos por operaciones lógicas binarias (suma, multiplicación). También niegan, afirman, incluyen o excluyen según sus propiedades lógicas. Estas compuertas se pueden aplicar en otras áreas de la ciencia como mecánica, hidráulica o neumática.
+
+Existen diferentes tipos de compuertas y algunas de estas son más complejas, con la posibilidad de ser simuladas por compuertas más sencillas. Todas estas tienen tablas de verdad que explican los comportamientos en los resultados que otorga, dependiendo del valor booleano que tenga en cada una de sus entradas.
+
+### MOC3011
+
+El MOC3011-M es un Optoacoplador con salida de controlador Triac de fase aleatoria que contiene un diodo emisor de infrarrojos GaAs y un interruptor bilateral de silicio activado de luz, que funciona como un triac. Está diseñado para ser la interfaz entre los controles electrónicos y los triacs de potencia para controlar cargas resistivas e inductivas para operaciones de 115VCA.
+
+### Triac
+
+El TRIAC es un componente electrónico semiconductor de tres terminales para controlar la corriente. Su nombre viene del término TRIode for Alternating Current = Triodo Para Corriente Alterna.
+Un triac se utiliza para controlar una carga de CA (corriente alterna), semejante a como un transistor se puede utilizar para controlar una carga de CC (corriente continua).En definitiva, es un interruptor electrónico pero para corriente alterna.
+
+
+### Interruptor centrífugo
+
+Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuerza centrífuga creada desde un eje de rotación, lo más común es que sea de un motor eléctrico o de un motor de gasolina. El interruptor se diseña para activar o para desactivar en función de la velocidad rotatoria del eje.
+
+
+
 ## Materiales
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+|                         |          |
+
 
 ## Esquemático
 
@@ -243,11 +382,43 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ## Introducción
 
+Esta práctica consiste en hacer cambiar la luminosidad de un foco incandescente conectado a 120 V al variar el voltaje mediante un potenciómetro.
+
 ## Objetivo
+
+- Aumentar o disminuir la luminosidad de un foco
 
 ## Marco teórico
 
+### Diac
+
+El DIAC (Diodo para Corriente Alterna) es un dispositivo semiconductor doble de dos conexiones. Es un diodo bidireccional autodisparable que conduce la corriente sólo tras haberse superado su tensión de disparo alternativa, y mientras la corriente circulante no sea inferior al valor triple de voltios característico para ese dispositivo. El comportamiento es variable para ambas direcciones de la corriente. La mayoría de los DIAC tienen una tensión de disparo doble variable de alrededor de 30 V. En este sentido, su comportamiento es similar a una lámpara de neón.
+
+### Triac
+
+El TRIAC es un componente electrónico semiconductor de tres terminales para controlar la corriente. Su nombre viene del término TRIode for Alternating Current = Triodo Para Corriente Alterna.
+Un triac se utiliza para controlar una carga de CA (corriente alterna), semejante a como un transistor se puede utilizar para controlar una carga de CC (corriente continua).En definitiva, es un interruptor electrónico pero para corriente alterna.
+
+
+### Potenciómetro
+
+Un potenciómetro es un componente electrónico similar a los resistores pero cuyo valor de resistencia en vez de ser fijo es variable, permitiendo controlar la intensidad de corriente a lo largo de un circuito conectándolo en paralelo ó la caida de tensión al conectarlo en serie. Un potenciómetro es un elemento muy similar a un reostato , la diferencia es que este último disipa más potencia y es utilizado para circuitos de mayor corriente, debido a esta carácterística, por lo general los potenciómetros son generalmente usados para variar el voltaje en un circuito colocados en paralelo, mientras que los reostatos se utilizan en serie para variar la corriente .
+
 ## Materiales
+
+|     Componente          | Cantidad |
+|:-----------------------:|:--------:|
+|Clavija con cable        |1         |
+|ITM                      |1         |
+|Resisetncia 100 Ohms     |1         |
+|Potenciómetro 100 K      |1         |
+|Resistencia 47K          |1         |
+|Resistencia 2.2K         |1         |
+|Diac                     |1         |
+|MAC 224                  |1         |
+|Foco incandescente       |1         |
+|Capacitor 104            |3         |
+
 
 ## Esquemático
 
@@ -273,13 +444,61 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ## Introducción
 
+Con el fin de poder apreciar una estela debido a una consecuencia directa de alta tensión, generar un circuito el cual alimente un flyback con el fin de apreciar una estela que sea directamente proporcional a la tensión eléctrica presente en el circuito.
+
 ## Objetivo
+
+Mediante un circuito analizado en clases, conectar un dispositivo flyback con el fin de generar una estela de voltaje visible a la vista humana.
 
 ## Marco teórico
 
+### Transformador flyback
+
+Un transformador flyback o transformador de líneas es un tipo de transformador que genera una alta tensión necesaria para hacer funcionar un tubo de rayos catódicos (CRT). 
+
+Este transformador de líneas o flyback incorpora un circuito rectificador en su interior formado en su parte de alta tensión por varios devanados, que incorporan diodos en serie internos y utilizan la capacidad parásita que hay entre ellos para filtrar y estabilizar la corriente rectificada por los diodos. La corriente consumida por el tubo en alta tensión es mínima, por lo que estas capacidades parásitas son suficientes.
+
+------------------------ IMAGEN DE UN FLYBACK -------------------------------
+
 ## Materiales
+
+|     Componente            | Cantidad |
+|:-----------------------:  |:--------:|
+|Fuente de voltaje variable |1         |
+|Capacitor cerámico 103     |1         |
+|Capacitor cerámico 22 uF   |1         |
+|Potenciómetro 50Kohm       |1         |
+|Resistencia 2.2K           |1         |
+|Transistor TIP3055         |1         |
+|Transistor Flyback         |1         |
+|Caimanes                   |2         |
+|Cinta aislante             |1         |
 
 ## Esquemático
 
+En la siguientes ilustraciones, se pueden apreciar lo que son el esquemático del circuito para el flyback y de una fuente con salida de 12V.
+
+------------------ Modelo de CIAU ------------------ 
+
+Por alguna cuestion de diseño, el esquemático de la fuente quedó descartado y en su lugar se emplea una fuente de voltaje variable para métodos prácticos del circuito.
+
 ## Resultados
 
+El circuito fue conectado al flyback y se obtuvieron las siguientes conexiones:
+
+------------------- IMG DEL CIRCUITO -------------------
+
+Mediante la prueba en físico de la práctica, se apreció que la mayor distancia que el flyback permitió para obtener la estela fue de 1 cm aproximadamente de separación entre las puntas, de manera que la práctica fue realizada con éxito. Es importante recalcar que para fines prácticos, el potenciómetro se accionó con la máxima resistencia posible, la cual es de 50kohm, lo cual afectaba en la frecuencia del transistor. 
+
+\newpage
+# Referencias (actualizar)
+
+- https://www.solerpalau.com/es-es/blog/motor-monofasico/ 
+
+- https://www.zuendo.com/smartblog/38_motor-electrico-y-funciones.html
+
+- https://www.logicbus.com.mx/compuertas-logicas.php
+
+- https://es.wikipedia.org/wiki/Diac
+
+- https://www.etsist.upm.es/estaticos/ingeniatic/index.php/tecnologias/item/556-potenciómmetro%3Ftmpl=component&print=1.html
