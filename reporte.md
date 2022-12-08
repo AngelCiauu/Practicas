@@ -651,9 +651,13 @@ Por alguna cuestion de diseño, el esquemático de la fuente quedó descartado y
 
 El circuito fue conectado al flyback y se obtuvieron las siguientes conexiones:
 
-------------------- IMG DEL CIRCUITO -------------------
+![Circuito físico. \label{circuito10}](media/practica-10/circuito_p10.jpeg){width=50%}
+
+![Prueba del circuito. \label{prueba10}](media/practica-10/circuitoprueba10.jpeg){width=50%}
 
 Mediante la prueba en físico de la práctica, se apreció que la mayor distancia que el flyback permitió para obtener la estela fue de 1 cm aproximadamente de separación entre las puntas, de manera que la práctica fue realizada con éxito. Es importante recalcar que para fines prácticos, el potenciómetro se accionó con la máxima resistencia posible, la cual es de 50kohm, lo cual afectaba en la frecuencia del transistor.
+
+![Estela del flyback obtenida. \label{estela10}](media/practica-10/estela.jfif){width=50%}
 
 \newpage
 # Referencias (actualizar)
