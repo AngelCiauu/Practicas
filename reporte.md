@@ -444,15 +444,51 @@ Un potenciómetro es un componente electrónico similar a los resistores pero cu
 
 ## Introducción
 
+Con el fin de poder apreciar una estela debido a una consecuencia directa de alta tensión, generar un circuito el cual alimente un flyback con el fin de apreciar una estela que sea directamente proporcional a la tensión eléctrica presente en el circuito.
+
 ## Objetivo
+
+Mediante un circuito analizado en clases, conectar un dispositivo flyback con el fin de generar una estela de voltaje visible a la vista humana.
 
 ## Marco teórico
 
+### Transformador flyback
+
+Un transformador flyback o transformador de líneas es un tipo de transformador que genera una alta tensión necesaria para hacer funcionar un tubo de rayos catódicos (CRT). 
+
+Este transformador de líneas o flyback incorpora un circuito rectificador en su interior formado en su parte de alta tensión por varios devanados, que incorporan diodos en serie internos y utilizan la capacidad parásita que hay entre ellos para filtrar y estabilizar la corriente rectificada por los diodos. La corriente consumida por el tubo en alta tensión es mínima, por lo que estas capacidades parásitas son suficientes.
+
+------------------------ IMAGEN DE UN FLYBACK -------------------------------
+
 ## Materiales
+
+|     Componente            | Cantidad |
+|:-----------------------:  |:--------:|
+|Fuente de voltaje variable |1         |
+|Capacitor cerámico 103     |1         |
+|Capacitor cerámico 22 uF   |1         |
+|Potenciómetro 50Kohm       |1         |
+|Resistencia 2.2K           |1         |
+|Transistor TIP3055         |1         |
+|Transistor Flyback         |1         |
+|Caimanes                   |2         |
+|Cinta aislante             |1         |
 
 ## Esquemático
 
+En la siguientes ilustraciones, se pueden apreciar lo que son el esquemático del circuito para el flyback y de una fuente con salida de 12V.
+
+------------------ Modelo de CIAU ------------------ 
+
+Por alguna cuestion de diseño, el esquemático de la fuente quedó descartado y en su lugar se emplea una fuente de voltaje variable para métodos prácticos del circuito.
+
 ## Resultados
+
+El circuito fue conectado al flyback y se obtuvieron las siguientes conexiones:
+
+------------------- IMG DEL CIRCUITO -------------------
+
+Mediante la prueba en físico de la práctica, se apreció que la mayor distancia que el flyback permitió para obtener la estela fue de 1 cm aproximadamente de separación entre las puntas, de manera que la práctica fue realizada con éxito. Es importante recalcar que para fines prácticos, el potenciómetro se accionó con la máxima resistencia posible, la cual es de 50kohm, lo cual afectaba en la frecuencia del transistor. 
 
 \newpage
 # Referencias (actualizar)
