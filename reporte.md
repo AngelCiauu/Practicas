@@ -349,18 +349,20 @@ Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuer
 
 ## Materiales
 
-- 1 CD4001
-- 1 MAC223
-- 1 capacitor 104
-- 1 capacitor 1uF
-- 1 contactor
-- 1 motor monofásico
-- 2 MOC3011
-- 3 push buttons normalmente abiertos
-- Resistencias 100
-- Resistencias 1K
-- Resistencias 2.2K
-- Resistencias 220
+| Componente       | Cantidad |
+| ---              | ---      |
+| CD4001           | 1        |
+| MAC223           | 1        |
+| Capacitor 104    | 1        |
+| Capacitor 1uF    | 1        |
+| Contactor        | 1        |
+| Motor monofásico | 1        |
+| MOC3011          | 2        |
+| Push button      | 3        |
+| Resistencia 100  | 1        |
+| Resistencia 1K   | 2        |
+| Resistencia 2.2K | 3        |
+| Resistencia 220  | 1        |
 
 ## Esquemático
 
