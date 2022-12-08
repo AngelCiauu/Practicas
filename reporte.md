@@ -210,11 +210,14 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 \newpage
 # Enclavamiento Electromagnético
 
-eeeeeeeeee
 
 ## Introducción
 
+La presente práctica trata acerca de encender una carga mediante un interruptor (Contacto NC) y mantenerla energizada a través de un enclavamiento electromagnético, esto al conectar en paralelo un contacto auxiliar con el interruptor antes mencionado. 
+
 ## Objetivo
+
+- Encender un motor a través de un interruptor (NC) y cortar la energía a través de un interruptor normalmente abierto.
 
 ## Marco teórico
 
