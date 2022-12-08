@@ -186,6 +186,10 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ## Introducción
 
+Esta práctica consta de la combinación de dos partes: primero, se tiene un circuito de lógica, conformado por el CD4001, que se encarga de controlar el inicio, paro y sentido de giro del motor monofásico, en combinación con un arreglo que permite enclavar la señar.
+
+Seguidamente, este circuito se conecta a uno de potencia, que utiliza la lógica anterior junto con un contactor para poder cambiar el sentido de dirección del motor, dependiendo de los botones que hayan sido presionados con anterioridad.
+
 ## Objetivo
 
 - Implementación de un arranque y paro, con enclavamiento, por medio de compuertas NOR
@@ -221,9 +225,42 @@ El semiconductor complementario de óxido metálico o complementary metal-oxide-
 
 ## Materiales
 
+- 1 CD4001
+- 1 MAC223
+- 1 capacitor 104
+- 1 capacitor 1uF
+- 1 contactor
+- 1 motor monofásico
+- 2 MOC3011
+- 3 push buttons normalmente abiertos
+- Resistencias 100
+- Resistencias 1K
+- Resistencias 2.2K
+- Resistencias 220
+
 ## Esquemático
 
+![Circuito de la práctica 5. \label{practica-05-diagrama}](media/dummy.png){width=50%}
+
+Como se puede observar en la \cref{practica-05-diagrama}, este circuito de dos partes claramente delimitadas por los MOC3011, cumpliendo se debido funcionamiento ideal de separar, dentro de un mismo circuito, la parte de lógica / electrónica de la parte de potencia.
+
+El conjunto de botones, resistencias de 2.2K y 4 CD4001 se encarga de dar la lógica del circuito. Cuando se presiona el botón de start, el motoro comienza a girar en un sentido, dependiendo de las conexiones iniciales al devanado de arranque.
+
+Cuando se presiona el botón de cambio de dirección (para hacer esto, el circuito tiene que estar desactivado), se activa el contactor y cambia los contactos NC a NO y visceversa, logrando que la conexión del devanado de arranque cambie de sentido. Esto logra que, después de la activación del contactor, el motor gire para el lado contrario al inicial, debido al cambio de sentido de la corriente que transita por el devanado de arranque.
+
+Por último, el botón de off se encarga de desactivar tanto el on como el cambio de dirección. Esto debido a que está conectado de tal manera que un solo botón desactiva el enclavado de ambos puntos.
+
 ## Resultados
+
+![Motor monofásico girando en sentido antihorario. \label{practica-05-res-antihor}](media/practica-05/practica-05-resultado-1.jpeg)
+
+Como se puede observar en la \cref{practica-05-res-antihor}, el motor monofásico gira en sentido antihorario. Esto se logró simplemente presionando el botón de on, sin haber presionado el cambio de dirección. Esto quiere decir que el giro en este sentido es debido a la conexión que hicimos originalmente, ya que no es modificada por el contactor, ya que no está siendo activado.
+
+![Motor monofásico girando en sentido horario. \label{practica-05-res-hor}](media/practica-05/practica-05-resultado-2.jpeg)
+
+Por el otro lado, presionando primero el botón de cambio de dirección y, por ende, activando el contactor y cambiando el sentido del flujo de la corriente a través del devanado de arranque, para, seguidamente, presionar el botón de inicio, se puede observar que el motor monofásico ahora gira en sentido horario (ver \cref{practica-05-res-hor}), contrario al sentido de giro original.
+
+El principal problema que se presentó, es que el circuito nunca se desactiva comletamente, siempre hay una pequeña corriente no deseada. Esto quiere decir que, a pesar de presionar el botón de off (desenclavamiento), el motor continúa girando en un sentido, pero más lento que cuando está activado. Esto es debido, principalmente, a la calidad de los componentes utilizados en el circuito, ya que se usaron componentes principalmente genéricos, por el precio. Si se utilizan componentes más especializados para esta tarea, este error desaparecerá.
 
 \newpage
 # Chopper
