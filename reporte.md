@@ -623,7 +623,7 @@ Un transformador flyback o transformador de líneas es un tipo de transformador 
 
 Este transformador de líneas o flyback incorpora un circuito rectificador en su interior formado en su parte de alta tensión por varios devanados, que incorporan diodos en serie internos y utilizan la capacidad parásita que hay entre ellos para filtrar y estabilizar la corriente rectificada por los diodos. La corriente consumida por el tubo en alta tensión es mínima, por lo que estas capacidades parásitas son suficientes.
 
------------------------- IMAGEN DE UN FLYBACK -------------------------------
+![Dispositivo Flyback. \label{flyback-10}](media/practica-10/Fly-back.jpg){width=50%}
 
 ## Materiales
 
