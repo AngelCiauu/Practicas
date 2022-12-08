@@ -241,7 +241,8 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 | Transformador 24V       | 1        |
 | Contactor               | 1        |
 | Motor DC                | 1        |
-
+| ITM                     | 1        |
+| Fusible 10A             | 1        |
 
 
 ### Inciso b)
@@ -257,6 +258,8 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 | Contacto NC             | 1        |
 | Motor de ventilador     | 1        |
 | Contactor               | 1        |
+| ITM                     | 1        |
+| Fusible 10A             | 1        |
 
 
 
@@ -269,9 +272,11 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 | Puente de diodos        | 1        |
 | Cap. elect. 100mF 35V   | 1        |
 | Contacto NA             | 1        |
-| Contacto NC             | 2        |
-| Capacitor 105           | 1        |
+| Contacto NC             | 1        |
+| Capacitor 105           | 2        |
 | Contactor               | 1        |
+| ITM                     | 1        |
+| Fusible 10A             | 1        |
 
 
 
