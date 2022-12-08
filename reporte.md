@@ -87,6 +87,7 @@ En cambio, al colocar el diodo el LED únicamente recibe la corriente que permit
 
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.png)
 
+Es de suma importancia conocer el funcionamiento interno de los componentes para realizar el diseño de un circuito. Esto nos permite una mejor comprensión en caso de tener errores o que algo no funcione como se espera. Esta práctica sentó las bases de la interacción de la corriente con los diodos, nos permitió observar de manera gráfica cómo funcionan y la utilidad que presentan en un caso aplicativo.
 \newpage
 
 # SCR
