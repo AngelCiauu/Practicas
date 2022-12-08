@@ -119,7 +119,7 @@ El símbolo gráfico del SCR se puede apreciar a continuación:
 | Cable cal. 22           | 2m       |
 | Clavija con cable       | 1        |
 | Puente de diodos        | 1        |
-| Capacitor 470uF a 25V   | 1        |
+| Capacitor 1000uF 25V    | 1        |
 | Transformador de 12V    | 1        |
 | Botones de pulso        | 2        |
 | SCR mod. C10GB a 4A     | 1        |
@@ -128,9 +128,19 @@ El símbolo gráfico del SCR se puede apreciar a continuación:
 
 ## Esquemático
 
-IMAGEN DE CIAU
+A continuación se muestran los dos circuitos que se realizaron:
+
+ ---------------------------------- IMAGEN DE CIAU ----------------------------------
+
+Es importante destacar que para el inciso b se realizaron unas modificaciones al circuito original, donde se intercambia el capacitor de 470uF a uno de 1000uF.
 
 ## Resultados
+
+Para el inciso a, se aprecia que al pulsar el botón de paro, se hace un cortocircuito entre el cátodo y el ánodo del SCR, por lo que el foco se desconecta. De igual manera, el capacitor conduce únicamente con un cambio de voltaje. El circuito funcionó de manera óptima y respondió a los botones presionados por el usuario.
+
+---------------------------------- IMAGEN DEL INCISO A ---------------------------------- 
+
+Para el inciso b, se realizó el primer esquemático sin mucho éxito, esto debido a que no llegaba el voltaje suficiente para accionar el SCR y, por ende, el foco no se encendia, de manera que se adaptó el nuevo esquemático y el circuito realizaba con éxito lo que se proponía.
 
 \newpage
 # On Delay 120V
@@ -291,57 +301,11 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 
 ## Introducción
 
-La presente práctica trata acerca de cambiar el sentido de giro de un motor, así como también encenderlo y apagarlo mediante interruptores empleando compuertas lógicas NOR
-
 ## Objetivo
-- Encender, apagar y cambiar el sentido de giro de un motor monofásico
 
 ## Marco teórico
 
-### Motor monofásico
-
-Un motor monofásico es una máquina capaz de provocar una rotación en su eje al alimentarlo eléctricamente.
-
-Este tipo de motores se suelen utilizar cuando no se dispone de una red trifásica a 380v generalmente usada en la industria y además se requiere de una baja potencia (de hasta 4 kW / 5 CV). El control que se va a realizar tiene que ser muy básico como un marcha-paro y cambio en el sentido de giro.
-
-Este tipo de motores se pueden encontrar instalados en hormigoneras, amoladoras, mesas de trabajo, ventilación, bombas de agua, tornos, compresores de aire, sierras circulares, etc.
-
-### Compuerta lógica
-
-Las Compuertas Lógicas son circuitos electrónicos conformados internamente por transistores que se encuentran con arreglos especiales con los que otorgan señales de voltaje como resultado o una salida de forma booleana, están obtenidos por operaciones lógicas binarias (suma, multiplicación). También niegan, afirman, incluyen o excluyen según sus propiedades lógicas. Estas compuertas se pueden aplicar en otras áreas de la ciencia como mecánica, hidráulica o neumática.
-
-Existen diferentes tipos de compuertas y algunas de estas son más complejas, con la posibilidad de ser simuladas por compuertas más sencillas. Todas estas tienen tablas de verdad que explican los comportamientos en los resultados que otorga, dependiendo del valor booleano que tenga en cada una de sus entradas.
-
-### MOC3011
-
-El MOC3011-M es un Optoacoplador con salida de controlador Triac de fase aleatoria que contiene un diodo emisor de infrarrojos GaAs y un interruptor bilateral de silicio activado de luz, que funciona como un triac. Está diseñado para ser la interfaz entre los controles electrónicos y los triacs de potencia para controlar cargas resistivas e inductivas para operaciones de 115VCA.
-
-### Triac
-
-El TRIAC es un componente electrónico semiconductor de tres terminales para controlar la corriente. Su nombre viene del término TRIode for Alternating Current = Triodo Para Corriente Alterna.
-Un triac se utiliza para controlar una carga de CA (corriente alterna), semejante a como un transistor se puede utilizar para controlar una carga de CC (corriente continua).En definitiva, es un interruptor electrónico pero para corriente alterna.
-
-
-### Interruptor centrífugo
-
-Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuerza centrífuga creada desde un eje de rotación, lo más común es que sea de un motor eléctrico o de un motor de gasolina. El interruptor se diseña para activar o para desactivar en función de la velocidad rotatoria del eje.
-
-
-
 ## Materiales
-
-|     Componente          | Cantidad |
-|:-----------------------:|:--------:|
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-|                         |          |
-
 
 ## Esquemático
 
@@ -422,11 +386,3 @@ Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuer
 
 ## Resultados
 
-\newpage
-# Referencias (actualizar)
-
-- https://www.solerpalau.com/es-es/blog/motor-monofasico/ 
-
-- https://www.zuendo.com/smartblog/38_motor-electrico-y-funciones.html
-
-- https://www.logicbus.com.mx/compuertas-logicas.php
