@@ -106,7 +106,7 @@ Mediante dos arreglos distintos, se controlará una fuente de iluminación media
 
 ## Objetivo
 
-Se demostrará el funcionamiento básico de un dispositivo SCR por medio del encendido de un foco que se alimenta a 12V, asi como se evaluará las condiciones para su conducción entre terminales mediante dos botones, uno para encalavar el flujo de corriente y el foco permanezca encendido, y otro como botón de paro, el cual cesará el flujo de corriente y apagará el foco.
+Se demostrará el funcionamiento básico de un dispositivo SCR por medio del encendido de un foco que se alimenta a 12V, asi como se evaluará las condiciones para su conducción entre terminales mediante dos botones, uno para enclavar el flujo de corriente y el foco permanezca encendido, y otro como botón de paro, el cual cesará el flujo de corriente y apagará el foco.
 
 ## Marco teórico
 
@@ -148,7 +148,7 @@ Es importante señalar que para el inciso b, se tenía un esquemático diferente
 
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-02/practica2.jpg)
 
-<!-- TODO redactar  -->
+Cuando se presiona el botón de abajo, que cumple el funcionamiento de encendido, activa el SCR, permitiendo el flujo de corriente a través del foco y, por ende, encendiéndolo. Finalmente, al presionar el botón de arriba, se genera una equivalencia de voltaje entre ambos de los pines, condición que hace que el SCR se desactive, negando el paso de corriente a través del foco, lo que quiere decir, que lo apaga.
 
 \newpage
 # Práctica 3: On Delay 120V
@@ -225,11 +225,11 @@ En el inciso a, se logró utilizar el LM555 en su modo monoestable. Esto quiere 
 
 En el inciso b, se utiliza el LM555 en el modo de retardo de tiempo, específicamente, después de ser energizado, con un valor de 10 segundos. Esto quiere decir que se logra crear un timer on delay con un valor de retardo a la entrada de 10 segundos. Después de probarlo, se obtienen resultados satisfactorios.
 
-<!-- TODO imagen del circuito -->
+En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza como un módulo para un circuito más grande. Este nuevo circuit cuenta con el timer y un contactor, conectado de manera que se tenga un enclavamiento. Esto logra que, una vez pasado el tiempo de retardo del timer, el foco se activa y, al mismo tiempo, se activa el enclavamiento, manteniendo encendido el foco, siempre y cuando no se desenclave por medio del butón normalmente cerrado (ver la \cref{funcionando} y la \cref{funcionandont}).
 
-En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza como un módulo para un circuito más grande. Este nuevo circuit cuenta con el timer y un contactor, conectado de manera que se tenga un enclavamiento. Esto logra que, una vez pasado el tiempo de retardo del timer, el foco se activa y, al mismo tiempo, se activa el enclavamiento, manteniendo encendido el foco, siempre y cuando no se desenclave por medio del butón normalmente cerrado.
+![Foto del circuito de la práctica 3 con el foco encendido. \label{funcionando}](media/practica-03/funcionando.png){width=50%}
 
-<!-- TODO imagen del circuito -->
+![Foto del circuito de la práctica 3 con el foco apagado. \label{funcionandont}](media/practica-03/funcionandont.png){width=50%}
 
 \newpage
 # Práctica 4: Enclavamiento Electromagnético
