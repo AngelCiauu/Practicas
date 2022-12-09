@@ -44,7 +44,7 @@ El diodo es un dispositivo tipo semiconductor que permite el paso de la corrient
 
 Cuando un diodo permite un flujo de corriente, tiene polarización directa. Cuando un diodo tienen polarización inversa, actúa como un aislante y no permite que fluya la corriente.
 
-Imagen del funcionamiento de un diodo.
+![Diodo. \label{Diodo}](media/practica-06/1n4007.jpg){width=15%}
 
 ### Diodo emisor de luz (LED)
 
