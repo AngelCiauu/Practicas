@@ -96,11 +96,11 @@ En cambio, al colocar el diodo el LED únicamente recibe la corriente que permit
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG)
 
 Es de suma importancia conocer el funcionamiento interno de los componentes para realizar el diseño de un circuito. Esto nos permite una mejor comprensión en caso de tener errores o que algo no funcione como se espera. Esta práctica sentó las bases de la interacción de la corriente con los diodos, nos permitió observar de manera gráfica cómo funcionan y la utilidad que presentan en un caso aplicativo.
-\newpage
 
 ## Conclusiones
 
-
+La corriente alterna inicialmente tiene la forma de una onda senoidal, la amplitud disminuye al pasar por la resistencia y cuando llega al LED solo pasa el semiciclo positivo de la onda, ya que ´este funciona como un diodo conectado en polarización directa. El semiciclo negativo pasa a través del diodo conectado en antiparalelo, ya que el cátodo está conectado en la entrada de la señal. De esta manera se logra que toda la onda pase por el circuito.
+\newpage
 
 # Práctica 2: Silicon Controlled Rectifier (SCR)
 
@@ -153,6 +153,10 @@ Es importante señalar que para el inciso b, se tenía un esquemático diferente
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-02/practica2.jpg)
 
 Cuando se presiona el botón de abajo, que cumple el funcionamiento de encendido, activa el SCR, permitiendo el flujo de corriente a través del foco y, por ende, encendiéndolo. Finalmente, al presionar el botón de arriba, se genera una equivalencia de voltaje entre ambos de los pines, condición que hace que el SCR se desactive, negando el paso de corriente a través del foco, lo que quiere decir, que lo apaga.
+
+## Conclusiones
+
+El rectificador controlado de silicio (SCR) es un dispositivo importante en el campo de la electrónica y puede utilizarse tanto en circuitos que tienen cargas pequeñas como un foto o incluso para motores. Este dispositivo es interruptor unidireccional capaz de conmutar cantidades importantes de energía, se cierra con un pulso de corriente de puerta (disparo) y se abre cuando la corriente pasa por cero.
 
 \newpage
 # Práctica 3: On Delay 120V
@@ -235,6 +239,10 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ![Foto del circuito de la práctica 3 con el foco apagado. \label{funcionandont}](media/practica-03/funcionandont.png){width=50%}
 
+## Conslusiones 
+
+El principal componente de esta práctica fue el circuito integrado LM555, el cual está diseñado para funcionar como un temporizador u oscilador monostable. Se comprendió como se puede establecer el tiempo de retraso al variar los valores de RA y CT. De igual forma se armó con éxito este circuito sobre una tarjeta electrónica o PCB, para lo cual se requirió comprender el circuito impreso y soldar correctamente los componentes, a pesar de que al principio del armado del PCB la soldadura trajo problemas, el equipo supo afrontarlos y resolverlos, para obtener un resultado adecuado y funcional.
+
 \newpage
 # Práctica 4: Enclavamiento Electromagnético
 
@@ -315,6 +323,10 @@ Los esquemáticos de los incisos a, b y c, respectivamente, se enlistan a contin
 ![Inciso c. \label{mac223}](media/practica-04/Esquematico4-3.PNG){width=50%}
 
 ## Resultados
+
+## Conclusiones
+
+En la presente práctica se hizo uso del PCB armado en la actividad anterior, por lo que era crucial que dicho circuito sea funcional todavia y para ello se hicieron pruebas de continuidad y se observó que todo funcionaba a la perfección. En esta práctida pudimos entender lo importante que son los enclavamientos y suelen emplearse la mayoría de las veces sobre el circuito de un motor eléctrico o en nuestro caso, un foco incandescente.
 
 \newpage
 # Práctica 5: Arranque, Reversa y Paro con Motor Monofásico
@@ -410,6 +422,10 @@ Como se puede observar en la \cref{practica-05-res-antihor}, el motor monofásic
 Por el otro lado, presionando primero el botón de cambio de dirección y, por ende, activando el contactor y cambiando el sentido del flujo de la corriente a través del devanado de arranque, para, seguidamente, presionar el botón de inicio, se puede observar que el motor monofásico ahora gira en sentido horario (ver \cref{practica-05-res-hor}), contrario al sentido de giro original.
 
 El principal problema que se presentó, es que el circuito nunca se desactiva comletamente, siempre hay una pequeña corriente no deseada. Esto quiere decir que, a pesar de presionar el botón de off (desenclavamiento), el motor continúa girando en un sentido, pero más lento que cuando está activado. Esto es debido, principalmente, a la calidad de los componentes utilizados en el circuito, ya que se usaron componentes principalmente genéricos, por el precio. Si se utilizan componentes más especializados para esta tarea, este error desaparecerá.
+
+## Conclusiones
+
+En esta práctica se tuvieron bastantes problemas y se retrasaron los avances aproximadamente semana y media. Los principales problemas que se identificaron fueron fallos en los cables así como también problemas de funcionamiento en los MAC y fueron cambiados dichos dispositivos aproximadamente tres veces. Afortunadamente se puddieron hallar los problemas haciendole pruebas a dichos componentes y comprobando su continuidad y así fue como el equipo supo solventar dichas complicaciones y se pavimentó el camino para que el sistema funcione de manera adecuada y se pudiera controlar el sentido de giro del motor de forma adecuada. 
 
 \newpage
 # Práctica 6: Chopper
@@ -551,6 +567,10 @@ Las conexiones con la fuente de 12V DC y al motor se visualizan en las siguiente
 
 ![Conexiones del circuito con el motor. \label{motor 7}](media/practica-07/circuito7motor.jpg){width=50%}
 
+## Conclusiones 
+En la elaboración de esta actividad se usó nuevamente el circuito integrado LM555 con la finalidad de generar una señal periódica de salida con una
+frecuencia variable, la cual iba a ser utilizada para controlar un transistor BD135. En esta práctica afortunadamente se tuvieron muy pocos problemas y se pudo armar de manera relativamente rápida el circuito, por lo que se generaron resultados muy positivos y sin contratiempos.
+
 \newpage
 # Práctica 8: Dimmer con Triac
 
@@ -610,6 +630,9 @@ Una vez montado el circuito y realizado el cableado pertinente a corriente alter
 
 ![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8.jpg){width=50%}
 
+## Conclusiones 
+En esta práctica se pudo entender cómo es el funcionamiento del dimmer y encontrar sus potenciales usos, ya que es un sistema de regulación lumínica. Entender qué es un dimmer no es suficiente para poder utilizarlo, ya que, aunque su función sea muy clara, es necesario contar con luminarias que tengan la posibilidad de ser reguladas para que resulte útil. En definitiva, se trata de un sistema que se puede integrar tanto de forma inalámbrica como a través de cableado en instalaciones como viviendas, oficinas o cualquier otro tipo de espacio que necesite una regulación de la intensidad de sus luminarias.
+
 \newpage
 # Práctica 9: Dimmer Doble con SCR
 
@@ -660,6 +683,10 @@ Una vez ya alimentado el circuito, se variaron los potenciómetros, de manera qu
 Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula la parte positiva de la señal, y el otro la negativa, donde se aprecia un recorte independiente mediante diferentes gates presentes en el circuito.
 
 ![Dimmer_conexiones. \label{Dimmer_conexiones-09}](media/practica-09/Practica9_completa.jpg){width=50%}
+
+## Conclusiones
+En esta práctica se pudo entender que existen muchas formas de contruir un dimmer, y otra opción adecuada es contruirlo con un SCR. De igual forma, se ha comprobado la efectividad del uso de diodos junto a dispositivos SCRs para realizar el dimmer doble de una carga, el uso de potenciometros permitió regular y controlar la sección de la señal removida que atenuaría la energía entregada a la carga.  El dimmer doble fue posible al trabajar con dos SCRs uno para cada semiciclo y teniendo en el circuito en dos partes simétricas para entregar la cantidad requerida de energía.
+
 
 \newpage
 # Práctica 10: Flyback
@@ -715,6 +742,9 @@ El circuito fue conectado al flyback y se obtuvieron las siguientes conexiones:
 Mediante la prueba en físico de la práctica, se apreció que la mayor distancia que el flyback permitió para obtener la estela fue de 1 cm aproximadamente de separación entre las puntas, de manera que la práctica fue realizada con éxito. Es importante recalcar que para fines prácticos, el potenciómetro se accionó con la máxima resistencia posible, la cual es de 50kohm, lo cual afectaba en la frecuencia del transistor.
 
 ![Estela del flyback obtenida. \label{estela10}](media/practica-10/estela.jfif){width=50%}
+
+## Conclusiones
+En esta práctica se tuvieron bastantes complicaciones y numerosos contratiempos. Uno de los problemas principales encontrados fue que el transistor no funcionaba correctamente por lo que el flyback no entregaba los resultados que se esperaban, por lo que se colocó un transistor TIP 3055 para resolver el problema. El flyback es un dispositivo que consume mucha corriente y/o voltaje por lo que jamás se debe tocar a menos que el aparato este totalmente descargado y en general es recomendable no tocar ninguna de las partes del transformador flyback ya que se puede producir una fuerte descarga eléctrica y causar daños al cuerpo. 
 
 \newpage
 # Enlaces
