@@ -81,7 +81,7 @@ A continuación se muestran los dos circuitos que se realizaron, sólo se agreg�
 
 ![Esquemático 1.2 \label{Esquemático 1.2}](media/practica-01/Esquematico1-1.PNG)
 
-## Resultados y Conclusiones
+## Resultados
 
 Se pudo observar mediante la creación del circuito la forma en la que la corriente varía cuando se tiene y cuando no se tiene un diodo rectificador. Debido a la simpleza, se optó por realizar las simulaciones para poder observar el comportamiento de la corriente en ambas situaciones. En la primera se puede observar que el LED recibe tanto la parte negativa como la positiva de la corriente. Cabe recalcar que este dispositivo es un diodo, por ello no se recomienda que absorba el ciclo negativo a través del cátodo, ya que puede disminuir la vida útil del componente. En la siguiente imagen se puede observar que el LED recibe ambas partes de la onda.
 
@@ -97,6 +97,10 @@ En cambio, al colocar el diodo el LED únicamente recibe la corriente que permit
 
 Es de suma importancia conocer el funcionamiento interno de los componentes para realizar el diseño de un circuito. Esto nos permite una mejor comprensión en caso de tener errores o que algo no funcione como se espera. Esta práctica sentó las bases de la interacción de la corriente con los diodos, nos permitió observar de manera gráfica cómo funcionan y la utilidad que presentan en un caso aplicativo.
 \newpage
+
+## Conclusiones
+
+
 
 # Práctica 2: Silicon Controlled Rectifier (SCR)
 
