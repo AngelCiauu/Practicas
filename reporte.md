@@ -148,7 +148,9 @@ Es importante señalar que para el inciso b, se tenía un esquemático diferente
 
 ## Resultados
 
+![Resultados1.2 \label{Resultados 1.2}](media/practica-02/practica2.jpg)
 
+-------------------- PENDIENTE -----------------------
 
 \newpage
 # Práctica 3: On Delay 120V
@@ -221,9 +223,15 @@ Como se puede observar en la \cref{funcionamiento-on-delay}, cuando se energiza 
 
 En el inciso a, se logró utilizar el LM555 en su modo monoestable. Esto quiere decir que, combinado con un push button, se logró simular el funcionamiento de un on delay, a pesar de que, en realidad, no lo sea por definición.
 
+![Inciso a](media/practica-03/practica3.jpg){width=25%}
+
 En el inciso b, se utiliza el LM555 en el modo de retardo de tiempo, específicamente, después de ser energizado, con un valor de 10 segundos. Esto quiere decir que se logra crear un timer on delay con un valor de retardo a la entrada de 10 segundos. Después de probarlo, se obtienen resultados satisfactorios.
 
+------------------ Falta foto ----------------------
+
 En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza como un módulo para un circuito más grande. Este nuevo circuit cuenta con el timer y un contactor, conectado de manera que se tenga un enclavamiento. Esto logra que, una vez pasado el tiempo de retardo del timer, el foco se activa y, al mismo tiempo, se activa el enclavamiento, manteniendo encendido el foco, siempre y cuando no se desenclave por medio del butón normalmente cerrado.
+
+------------------ Falta foto ----------------------
 
 \newpage
 # Práctica 4: Enclavamiento Electromagnético
@@ -584,7 +592,19 @@ Un potenciómetro es un componente electrónico similar a los resistores pero cu
 
 ## Esquemático
 
+El esquemático de la práctica se visualiza a continuación:
+
+![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Esquematico8-1.PNG){width=50%}
+
 ## Resultados
+
+El circuito se montó en una protoboard tal y como se aprecia en la figura a continuación.
+
+![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8proto.jpg){width=50%}
+
+Una vez montado el circuito y realizado el cableado pertinente a corriente alterna y al foco, se procedió a alimentar al circuito, el cual funcionaba de la manera deseada, donde por medio del potenciómetro, podíamos variar la propia luminosidad del foco, cumpliendo con el objetivo de la práctica. 
+
+![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8.jpg){width=50%}
 
 \newpage
 # Práctica 9: Dimmer Doble con SCR
