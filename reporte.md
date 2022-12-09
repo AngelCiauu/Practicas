@@ -89,6 +89,8 @@ Se pudo observar mediante la creación del circuito la forma en la que la corrie
 
 ![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.PNG)
 
+
+
 En cambio, al colocar el diodo el LED únicamente recibe la corriente que permite pasar y el lado negativo pasa a través del diodo en paralelo. De esta manera la corriente en el LED se comporta de la manera que se muestra a continuación.
 
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG)
@@ -217,7 +219,6 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 \newpage
 # Práctica 4: Enclavamiento Electromagnético
 
-
 ## Introducción
 
 La presente práctica trata acerca de encender una carga mediante un interruptor (Contacto NC) y mantenerla energizada a través de un enclavamiento electromagnético, esto al conectar en paralelo un contacto auxiliar con el interruptor antes mencionado.
@@ -229,6 +230,7 @@ La presente práctica trata acerca de encender una carga mediante un interruptor
 ## Marco teórico
 
 ### Enclavamiento
+
 Consiste en conectar en paralelo un contacto auxiliar (NA) con un interruptor (NC).
 
 ### Contactor
@@ -525,6 +527,7 @@ Al accionar el botón de arriba, el giro del motor es en un sentido horario en n
 Las conexiones con la fuente de 12V DC y al motor se visualizan en las siguientes imagenes:
 
 ![Conexiones del circuito (vista general). \label{circuito 7}](media/practica-07/circuito7.jpg){width=50%}
+
 ![Conexiones del circuito con el motor. \label{motor 7}](media/practica-07/circuito7motor.jpg){width=50%}
 
 \newpage
@@ -660,7 +663,7 @@ El circuito fue conectado al flyback y se obtuvieron las siguientes conexiones:
 
 ![Circuito físico. \label{circuito10}](media/practica-10/circuito_p10.jpeg){width=50%}
 
-![Prueba del circuito. \label{prueba10}](media/practica-10/circuitoprueba10.jpeg){width=50%}
+![Prueba del circuito. \label{prueba10}](media/practica-10/circuitoprueba10.png){width=50%}
 
 Mediante la prueba en físico de la práctica, se apreció que la mayor distancia que el flyback permitió para obtener la estela fue de 1 cm aproximadamente de separación entre las puntas, de manera que la práctica fue realizada con éxito. Es importante recalcar que para fines prácticos, el potenciómetro se accionó con la máxima resistencia posible, la cual es de 50kohm, lo cual afectaba en la frecuencia del transistor.
 
