@@ -120,7 +120,7 @@ En la actualidad, los dispositivos SCR han sido diseñados para controlar potenc
 
 El símbolo gráfico del SCR se puede apreciar a continuación:
 
-![Simbolo SCR \label{Simbolo SCR}](media/practica-02/SCR_sim.jpg)
+![Simbolo SCR \label{Simbolo SCR}](media/practica-02/SCR_sim.jpg){width=50%}
 
 ## Materiales
 
@@ -144,7 +144,7 @@ Para esta práctica se tienen 2 incisos, por lo que el inciso a e inciso b, resp
 
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-02/Esquematico2-2.PNG)
 
-Es importante señalar que para el inciso b, se tenía un esquemático diferente al ilustrado anteriormente, sin embargo, se optó por incorporar este a la práctica debido que éste si cumplía con los resultados esperados. 
+Es importante señalar que para el inciso b, se tenía un esquemático diferente al ilustrado anteriormente, sin embargo, se optó por incorporar este a la práctica debido que éste si cumplía con los resultados esperados.
 
 ## Resultados
 
@@ -213,17 +213,17 @@ Como se puede observar en la \cref{funcionamiento-on-delay}, cuando se energiza 
 
 ## Esquemático
 
-![Inciso a](media/practica-03/Esquematico3-1.PNG){width=25%}
+![Inciso a](media/practica-03/Esquematico3-1.PNG){width=50%}
 
-![Inciso b](media/practica-03/Esquematico3-2.PNG){width=25%}
+![Inciso b](media/practica-03/Esquematico3-2.PNG){width=50%}
 
-![Inciso c](media/practica-03/Esquematico3-3.PNG){width=25%}
+![Inciso c](media/practica-03/Esquematico3-3.PNG){width=50%}
 
 ## Resultados
 
 En el inciso a, se logró utilizar el LM555 en su modo monoestable. Esto quiere decir que, combinado con un push button, se logró simular el funcionamiento de un on delay, a pesar de que, en realidad, no lo sea por definición.
 
-![Inciso a](media/practica-03/practica3.jpg){width=25%}
+![Inciso a](media/practica-03/practica3.jpg){width=50%}
 
 En el inciso b, se utiliza el LM555 en el modo de retardo de tiempo, específicamente, después de ser energizado, con un valor de 10 segundos. Esto quiere decir que se logra crear un timer on delay con un valor de retardo a la entrada de 10 segundos. Después de probarlo, se obtienen resultados satisfactorios.
 
@@ -306,11 +306,11 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 
 Los esquemáticos de los incisos a, b y c, respectivamente, se enlistan a continuación:
 
-![Inciso a \label{mac223}](media/practica-04/Esquematico4-1.PNG){width=15%}
+![Inciso a \label{mac223}](media/practica-04/Esquematico4-1.PNG){width=50%}
 
-![Inciso b. \label{mac223}](media/practica-04/Esquematico4-2.PNG){width=15%}
+![Inciso b. \label{mac223}](media/practica-04/Esquematico4-2.PNG){width=50%}
 
-![Inciso c. \label{mac223}](media/practica-04/Esquematico4-3.PNG){width=15%}
+![Inciso c. \label{mac223}](media/practica-04/Esquematico4-3.PNG){width=50%}
 
 ## Resultados
 
@@ -459,7 +459,7 @@ Su funcionamiento consiste en permitir el flujo de energía eléctrica en un sol
 
 ## Esquemático
 
-![Circuito del chopper de la práctica 6.](media/practica-06/Esquematico6-1.PNG){width=25%}
+![Circuito del chopper de la práctica 6.](media/practica-06/Esquematico6-1.PNG)
 
 ## Resultados
 
@@ -604,7 +604,7 @@ El circuito se montó en una protoboard tal y como se aprecia en la figura a con
 
 ![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8proto.jpg){width=50%}
 
-Una vez montado el circuito y realizado el cableado pertinente a corriente alterna y al foco, se procedió a alimentar al circuito, el cual funcionaba de la manera deseada, donde por medio del potenciómetro, podíamos variar la propia luminosidad del foco, cumpliendo con el objetivo de la práctica. 
+Una vez montado el circuito y realizado el cableado pertinente a corriente alterna y al foco, se procedió a alimentar al circuito, el cual funcionaba de la manera deseada, donde por medio del potenciómetro, podíamos variar la propia luminosidad del foco, cumpliendo con el objetivo de la práctica.
 
 ![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8.jpg){width=50%}
 
@@ -645,7 +645,6 @@ El rectificador controlado de silicio es un tipo de tiristor formado por cuatro 
 
 ![Dimmer 1. \label{Dimmer-09}](media/practica-09/Esquematico9-1.PNG){width=50%}
 
-
 ## Resultados
 
 Para la elaboración de este circuito, se tienen las siguientes conexiones:
@@ -656,7 +655,7 @@ Una vez ya alimentado el circuito, se variaron los potenciómetros, de manera qu
 
 ![Dimmer osc. \label{Dimmerosc-09}](media/practica-09/Practica9osc.jpg){width=50%}
 
-Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula la parte positiva de la señal, y el otro la negativa, donde se aprecia un recorte independiente mediante diferentes gates presentes en el circuito. 
+Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula la parte positiva de la señal, y el otro la negativa, donde se aprecia un recorte independiente mediante diferentes gates presentes en el circuito.
 
 ![Dimmer_conexiones. \label{Dimmer_conexiones-09}](media/practica-09/Practica9_completa.jpg){width=50%}
 
