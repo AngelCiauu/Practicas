@@ -42,8 +42,6 @@ Mediante tres diferentes arreglos de circuitos, se encenderá un LED mediante un
 
 El diodo es un dispositivo tipo semiconductor que permite el paso de la corriente eléctrica en un sentido cuando se le administra un voltaje suficiente para dejar que fluya la corriente, e impide su paso a través del otro sentido, el cual usualmente se aplica para rectificar el flujo de la corriente por sus características. Es un componente básico de los circuitos electrónicos que esta muy presente en dispositivos modernos, tales como ordenadores, equipos de audio, televisores, teléfonos, entre otras cosas. De igual manera, su principal aplicación, ya antes mencionado, es como rectificador, ya que permite el cambio de corriente alterna a directa mediante un arreglo conocido como puente de diodos, debido a que cuentan con polaridad, donde estan presentes el cátodo (terminal negativa) y el ánodo (terminal positiva). Los diodos se clasifican según su tipo, tensión y capacidad de corriente.
 
-Imagen de un diodo (pendiente)
-
 Cuando un diodo permite un flujo de corriente, tiene polarización directa. Cuando un diodo tienen polarización inversa, actúa como un aislante y no permite que fluya la corriente.
 
 Imagen del funcionamiento de un diodo.
@@ -150,7 +148,7 @@ Es importante señalar que para el inciso b, se tenía un esquemático diferente
 
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-02/practica2.jpg)
 
--------------------- PENDIENTE -----------------------
+<!-- TODO redactar  -->
 
 \newpage
 # Práctica 3: On Delay 120V
@@ -227,11 +225,11 @@ En el inciso a, se logró utilizar el LM555 en su modo monoestable. Esto quiere 
 
 En el inciso b, se utiliza el LM555 en el modo de retardo de tiempo, específicamente, después de ser energizado, con un valor de 10 segundos. Esto quiere decir que se logra crear un timer on delay con un valor de retardo a la entrada de 10 segundos. Después de probarlo, se obtienen resultados satisfactorios.
 
------------------- Falta foto ----------------------
+<!-- TODO imagen del circuito -->
 
 En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza como un módulo para un circuito más grande. Este nuevo circuit cuenta con el timer y un contactor, conectado de manera que se tenga un enclavamiento. Esto logra que, una vez pasado el tiempo de retardo del timer, el foco se activa y, al mismo tiempo, se activa el enclavamiento, manteniendo encendido el foco, siempre y cuando no se desenclave por medio del butón normalmente cerrado.
 
------------------- Falta foto ----------------------
+<!-- TODO imagen del circuito -->
 
 \newpage
 # Práctica 4: Enclavamiento Electromagnético
@@ -698,7 +696,7 @@ Este transformador de líneas o flyback incorpora un circuito rectificador en su
 
 En la siguientes ilustraciones, se pueden apreciar lo que son el esquemático del circuito para el flyback y de una fuente con salida de 12V.
 
------------------- Modelo de CIAU ------------------
+![Circuito de la práctica 10.](media/practica-10/Esquematico10-1.PNG){width=75%}
 
 Por alguna cuestion de diseño, el esquemático de la fuente quedó descartado y en su lugar se emplea una fuente de voltaje variable para métodos prácticos del circuito.
 
@@ -715,7 +713,7 @@ Mediante la prueba en físico de la práctica, se apreció que la mayor distanci
 ![Estela del flyback obtenida. \label{estela10}](media/practica-10/estela.jfif){width=50%}
 
 \newpage
-# Referencias (actualizar)
+# Enlaces
 
 - https://www.solerpalau.com/es-es/blog/motor-monofasico/
 
@@ -728,3 +726,12 @@ Mediante la prueba en físico de la práctica, se apreció que la mayor distanci
 - https://www.etsist.upm.es/estaticos/ingeniatic/index.php/tecnologias/item/556-potenciómmetro%3Ftmpl=component&print=1.html
 
 - https://es.wikipedia.org/wiki/Rectificador_controlado_de_silicio
+
+- https://www.ecured.cu/Fly-back
+
+- https://unicrom.com/dimmer-control-de-velocidad-motor-ac-con-triac/
+
+- https://www.areatecnologia.com/electronica/triac.html
+
+- https://www.electrical4u.net/basic-accessories/on-delay-timer-off-delay-timer-working-principle/
+
