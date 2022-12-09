@@ -51,15 +51,19 @@ Cuando un diodo permite un flujo de corriente, tiene polarización directa. Cuan
 Existen varios tipos de diodos con diferentes aplicaciones y utilidades según su configuración y estructura, uno de éstos es el diodo tipo LED, los cuales funcionan en polarización directa, y se caracterizan porque las recombinaciones de los portadores de carga generan fotones, las particulas elementales que forman la luz. Dentro de estos hay de varios tipos, como los DIP (Dual In-Line Package) LED, que son las luces LED tradicionales y en las que piensa la mayoría de la gente cuando se les pide.
 
 ### Voltaje 127 AC
+
 Existen múltiples formas de alimentación eléctrica, la más utilizada de manera cotidiana es mediante el voltaje de 127 volts con el que la mayoría contamos en nuestros hogares. Este voltaje se conoce como voltaje nominal y está regulado por el "Reglamento de la Ley del Servicio Público de Energía Eléctrica". Durante esta práctica se utilizará dicho voltaje como forma de alimentación del circuito que se utilizará para analizar el comportamiento de la corriente en dos situaciones.
 
 ### Resistencia
+
 Estos componentes están hechos de carbón u otros materiales que se oponen al flujo de corriente, lo cual genera una característica eléctrica llamada "resistencia". Esta característica se define como la oposición al flujo de electrones a través de un conductor.
 
 ### Rectificador de media onda
+
 De manera general es un circuito simple empleado para eliminar la mitad de una onda, ya sea la parte positiva o la negativa. Para realizar uno de estos rectificadores basta con colocar un diodo en el circuito. También existen los rectificadores de onda completa cuya construcción es ligeramente más compleja, donde se requieren 4 diodos en un arreglo específico.
 
 ## Materiales
+
 A continuación se presenta la lista de los componentes utilizados en ambos casos de la práctica:
 
 |     Componente    | Cantidad |
@@ -71,6 +75,7 @@ A continuación se presenta la lista de los componentes utilizados en ambos caso
 | Resistencia 30K   | 1        |
 
 ## Esquemático
+
 A continuación se muestran los dos circuitos que se realizaron, sólo se agregó un diodo en el segundo circuito.  Este cambio resultó en una gran diferencia que se abordará a profundidad en los resultados.
 
 ### Circuito sin rectificador
@@ -87,21 +92,23 @@ Se pudo observar mediante la creación del circuito la forma en la que la corrie
 
 ![Resultados1.1 \label{Resultados 1.1}](media/practica-01/practica1.jpg)
 
+\newpage
 ![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.PNG)
 
 En cambio, al colocar el diodo el LED únicamente recibe la corriente que permite pasar y el lado negativo pasa a través del diodo en paralelo. De esta manera la corriente en el LED se comporta de la manera que se muestra a continuación.
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-01/practica1_b.jpg)
+\newpage
+![Resultados1.2 \label{Resultados 1.2}](media/practica-01/practica1_b.jpg){width=50%}
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG)
+![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG){width=50%}
 
 Es de suma importancia conocer el funcionamiento interno de los componentes para realizar el diseño de un circuito. Esto nos permite una mejor comprensión en caso de tener errores o que algo no funcione como se espera. Esta práctica sentó las bases de la interacción de la corriente con los diodos, nos permitió observar de manera gráfica cómo funcionan y la utilidad que presentan en un caso aplicativo.
 
 ## Conclusiones
 
 La corriente alterna inicialmente tiene la forma de una onda senoidal, la amplitud disminuye al pasar por la resistencia y cuando llega al LED solo pasa el semiciclo positivo de la onda, ya que ´este funciona como un diodo conectado en polarización directa. El semiciclo negativo pasa a través del diodo conectado en antiparalelo, ya que el cátodo está conectado en la entrada de la señal. De esta manera se logra que toda la onda pase por el circuito.
-\newpage
 
+\newpage
 # Práctica 2: Silicon Controlled Rectifier (SCR)
 
 ## Introducción
@@ -221,6 +228,7 @@ Como se puede observar en la \cref{funcionamiento-on-delay}, cuando se energiza 
 
 ![Inciso a](media/practica-03/Esquematico3-1.PNG){width=50%}
 
+\newpage
 ![Inciso b](media/practica-03/Esquematico3-2.PNG){width=50%}
 
 ![Inciso c](media/practica-03/Esquematico3-3.PNG){width=50%}
@@ -239,7 +247,7 @@ En el inciso c, ya con el timer on delay armado del punto anterior, se utiliza c
 
 ![Foto del circuito de la práctica 3 con el foco apagado. \label{funcionandont}](media/practica-03/funcionandont.png){width=50%}
 
-## Conslusiones 
+## Conclusiones
 
 El principal componente de esta práctica fue el circuito integrado LM555, el cual está diseñado para funcionar como un temporizador u oscilador monostable. Se comprendió como se puede establecer el tiempo de retraso al variar los valores de RA y CT. De igual forma se armó con éxito este circuito sobre una tarjeta electrónica o PCB, para lo cual se requirió comprender el circuito impreso y soldar correctamente los componentes, a pesar de que al principio del armado del PCB la soldadura trajo problemas, el equipo supo afrontarlos y resolverlos, para obtener un resultado adecuado y funcional.
 
@@ -261,6 +269,7 @@ La presente práctica trata acerca de encender una carga mediante un interruptor
 Consiste en conectar en paralelo un contacto auxiliar (NA) con un interruptor (NC).
 
 ### Contactor
+
 Un contactor es un elemento electromecánico que tiene la capacidad de establecer o interrumpir la corriente eléctrica de una carga, con la posibilidad de ser accionado a distancia mediante la utilización de elementos de comando, los cuales están compuesto por un circuito bobina / electroimán por la cual circula una menor corriente que la de carga en sí (incluso podría utilizarse baja tensión para el comando). Constructivamente son similares a los relés, y ambos permiten controlar en forma manual o automática, ya sea localmente o a distancia toda clase de circuitos. Pero se diferencian por la misión que cumple cada uno: los relés controlan corrientes de bajo valor como las de circuitos de alarmas visuales o sonoras, alimentación de contactores, etc. y los contactores se utilizan como interruptores electromagnéticos en la conexión y desconexión de circuitos de iluminación y fuerza motriz de elevada tensión y potencia.
 
 ## Materiales
@@ -318,11 +327,10 @@ Los esquemáticos de los incisos a, b y c, respectivamente, se enlistan a contin
 
 ![Inciso a \label{mac223}](media/practica-04/Esquematico4-1.PNG){width=50%}
 
+\newpage
 ![Inciso b. \label{mac223}](media/practica-04/Esquematico4-2.PNG){width=50%}
 
 ![Inciso c. \label{mac223}](media/practica-04/Esquematico4-3.PNG){width=50%}
-
-## Resultados
 
 ## Conclusiones
 
@@ -425,7 +433,7 @@ El principal problema que se presentó, es que el circuito nunca se desactiva co
 
 ## Conclusiones
 
-En esta práctica se tuvieron bastantes problemas y se retrasaron los avances aproximadamente semana y media. Los principales problemas que se identificaron fueron fallos en los cables así como también problemas de funcionamiento en los MAC y fueron cambiados dichos dispositivos aproximadamente tres veces. Afortunadamente se puddieron hallar los problemas haciendole pruebas a dichos componentes y comprobando su continuidad y así fue como el equipo supo solventar dichas complicaciones y se pavimentó el camino para que el sistema funcione de manera adecuada y se pudiera controlar el sentido de giro del motor de forma adecuada. 
+En esta práctica se tuvieron bastantes problemas y se retrasaron los avances aproximadamente semana y media. Los principales problemas que se identificaron fueron fallos en los cables así como también problemas de funcionamiento en los MAC y fueron cambiados dichos dispositivos aproximadamente tres veces. Afortunadamente se puddieron hallar los problemas haciendole pruebas a dichos componentes y comprobando su continuidad y así fue como el equipo supo solventar dichas complicaciones y se pavimentó el camino para que el sistema funcione de manera adecuada y se pudiera controlar el sentido de giro del motor de forma adecuada.
 
 \newpage
 # Práctica 6: Chopper
@@ -498,7 +506,7 @@ Desarrollar un circuito de corriente directa que disponga de tres botones que ac
 
 ## Marco teórico
 
-### encapsulado CD4013BE
+### Encapsulado CD4013BE
 
 El CD4013 Flip-Flop Dual es un circuito integrado MOS (CMOS) está formado de transistores así que los canales tipo N y tipo P están mejorados. En su interior cuenta con 2 Flip-Flop cada uno tiene sus datos independientes: set, reset, entradas de reloj y sus salidas Q y Q(negada).
 
@@ -506,10 +514,10 @@ El CD4013 Flip-Flop Dual es un circuito integrado MOS (CMOS) está formado de tr
 
 En lógica digital, un inversor, puerta NOT o compuerta NOT es una puerta lógica que implementa la negación lógica. Donde la tabla de verdad queda de la siguiente manera:
 
-|     Entrada          |   Salida   |
-|:--------------------:|:----------:|
-|           0          |     1     |
-|           1          |     0     |
+| Entrada | Salida |
+| :---:   | :---:  |
+| 0       | 1      |
+| 1       | 0      |
 
 la función de esta compuerta consiste en producir como salida el valor invertido de su entrada. El valor de salida de una compuerta NOT será 1 cuando su valor entrada sea 0 y será 0 cuando su valor de entrada sea 1.
 
@@ -517,19 +525,19 @@ la función de esta compuerta consiste en producir como salida el valor invertid
 
 La compuerta AND o puerta AND es una puerta lógica digital que implementa la conjunción lógica, esta tendrá una salida ALTA, únicamente cuando los valores de ambas entradas sean ALTOS. La tabla de verdad queda de la siguiente manera:
 
-|     Entrada  A        |     Entrada  B        |   Salida   |
-|:---------------------:|:---------------------:|:----------:|
-|           0           |           0           |     0      |
-|           0           |           1           |     0      |
-|           1           |           0           |     0      |
-|           1           |           1           |     1      |
+| Entrada  A | Entrada  B | Salida |
+| :---:      | :---:      | :---:  |
+| 0          | 0          | 0      |
+| 0          | 1          | 0      |
+| 1          | 0          | 0      |
+| 1          | 1          | 1      |
 
 La compuerta AND produce la multiplicación lógica AND, esto es: la salida es 1 si la entrada A y la entrada B están ambas en el binario 1: de otra manera, la salida es 0. Estas condiciones también son especificadas en la tabla de verdad para la compuerta AND.
 
 ## Materiales
 
-|     Componente      | Cantidad |
-|:-------------------:|:--------:|
+| Componente          | Cantidad |
+| :---:               | :---:    |
 | Cable cal. 22       | 2m       |
 | Clavija con cable   | 1        |
 | Botón de pulso      | 3        |
@@ -559,15 +567,16 @@ Esta compuerta tiene la particularidad que funciona en un rango de 12V, los cual
 
 Al accionar el botón de arriba, el giro del motor es en un sentido horario en nuestro caso, cuando se pulsa el botón de enmedio se detiene el motor y a continuación se presiona el botón de abajo, el cual cambia el sentido de giro a antihorario, donde podemos concluir que el circuito funciona en óptimas condiciones. De igual manera, cabe aclarar que es indiferente si se presiona el botón de giro horario o antihorario de primero, el funcionamiento es el mismo.
 
-![Circuito recreado en el protoboard. \label{proto 7}](media/practica-07/protocircuito7.jfif){width=50%}
-
 Las conexiones con la fuente de 12V DC y al motor se visualizan en las siguientes imagenes:
 
 ![Conexiones del circuito (vista general). \label{circuito 7}](media/practica-07/circuito7.jpg){width=50%}
 
+\newpage
 ![Conexiones del circuito con el motor. \label{motor 7}](media/practica-07/circuito7motor.jpg){width=50%}
 
-## Conclusiones 
+![Circuito recreado en el protoboard. \label{proto 7}](media/practica-07/protocircuito7.jfif){width=35%}
+
+## Conclusiones
 En la elaboración de esta actividad se usó nuevamente el circuito integrado LM555 con la finalidad de generar una señal periódica de salida con una
 frecuencia variable, la cual iba a ser utilizada para controlar un transistor BD135. En esta práctica afortunadamente se tuvieron muy pocos problemas y se pudo armar de manera relativamente rápida el circuito, por lo que se generaron resultados muy positivos y sin contratiempos.
 
@@ -630,13 +639,14 @@ Una vez montado el circuito y realizado el cableado pertinente a corriente alter
 
 ![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8.jpg){width=50%}
 
-## Conclusiones 
+## Conclusiones
 En esta práctica se pudo entender cómo es el funcionamiento del dimmer y encontrar sus potenciales usos, ya que es un sistema de regulación lumínica. Entender qué es un dimmer no es suficiente para poder utilizarlo, ya que, aunque su función sea muy clara, es necesario contar con luminarias que tengan la posibilidad de ser reguladas para que resulte útil. En definitiva, se trata de un sistema que se puede integrar tanto de forma inalámbrica como a través de cableado en instalaciones como viviendas, oficinas o cualquier otro tipo de espacio que necesite una regulación de la intensidad de sus luminarias.
 
 \newpage
 # Práctica 9: Dimmer Doble con SCR
 
 ## Introducción
+
 La presente práctica consiste en recortar los valles positivos o negativos, según sea el caso, de una señal sinusoidal usando dos dispositivos SCR y regulados por un potenciómetro. Al recortar dicha señal se podrá observar que sube o baja la intensidad de un foco incandescente.
 
 ## Objetivo
@@ -646,25 +656,26 @@ La presente práctica consiste en recortar los valles positivos o negativos, seg
 ## Marco teórico
 
 ### Dimmer
+
 Un dimmer, regulador, atenuador o dímer, sirve para regular la energía en uno o varios focos con el fin de variar la intensidad de la luz que emiten, cuando las propiedades de la lámpara lo hacen posible.
 
 ### SCR (Rectificador controlado de silicio)
+
 El rectificador controlado de silicio es un tipo de tiristor formado por cuatro capas de material semiconductor con estructura PNPN o bien NPNP.
 
 ## Materiales
 
-|     Componente            | Cantidad |
-|:-----------------------:  |:--------:|
-|Switch cola de rata        |1         |
-|Foco 12 V                  |1         |
-|SCR Tic126                 |2         |
-|Potenciómetro 50Kohm       |2         |
-|Resistencia 100 Ohms       |2         |
-|Cap. Electr. 47uF          |1         |
-|Resistencia 10k            |1         |
-|Diodo 1n4007               |2         |
-|Transformador 12V          |1         |
-
+| Componente           | Cantidad |
+| :---:                | :---:    |
+| Switch cola de rata  | 1        |
+| Foco 12 V            | 1        |
+| SCR Tic126           | 2        |
+| Potenciómetro 50Kohm | 2        |
+| Resistencia 100 Ohms | 2        |
+| Cap. Electr. 47uF    | 1        |
+| Resistencia 10k      | 1        |
+| Diodo 1n4007         | 2        |
+| Transformador 12V    | 1        |
 
 ## Esquemático
 
@@ -682,9 +693,11 @@ Una vez ya alimentado el circuito, se variaron los potenciómetros, de manera qu
 
 Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula la parte positiva de la señal, y el otro la negativa, donde se aprecia un recorte independiente mediante diferentes gates presentes en el circuito.
 
+\newpage
 ![Dimmer_conexiones. \label{Dimmer_conexiones-09}](media/practica-09/Practica9_completa.jpg){width=50%}
 
 ## Conclusiones
+
 En esta práctica se pudo entender que existen muchas formas de contruir un dimmer, y otra opción adecuada es contruirlo con un SCR. De igual forma, se ha comprobado la efectividad del uso de diodos junto a dispositivos SCRs para realizar el dimmer doble de una carga, el uso de potenciometros permitió regular y controlar la sección de la señal removida que atenuaría la energía entregada a la carga.  El dimmer doble fue posible al trabajar con dos SCRs uno para cada semiciclo y teniendo en el circuito en dos partes simétricas para entregar la cantidad requerida de energía.
 
 
@@ -711,17 +724,17 @@ Este transformador de líneas o flyback incorpora un circuito rectificador en su
 
 ## Materiales
 
-|     Componente            | Cantidad |
-|:-----------------------:  |:--------:|
-|Fuente de voltaje variable |1         |
-|Capacitor cerámico 103     |1         |
-|Capacitor cerámico 22 uF   |1         |
-|Potenciómetro 50Kohm       |1         |
-|Resistencia 2.2K           |1         |
-|Transistor TIP3055         |1         |
-|Transistor Flyback         |1         |
-|Caimanes                   |2         |
-|Cinta aislante             |1         |
+| Componente                 | Cantidad |
+| :---:                      | :---:    |
+| Fuente de voltaje variable | 1        |
+| Capacitor cerámico 103     | 1        |
+| Capacitor cerámico 22 uF   | 1        |
+| Potenciómetro 50Kohm       | 1        |
+| Resistencia 2.2K           | 1        |
+| Transistor TIP3055         | 1        |
+| Transistor Flyback         | 1        |
+| Caimanes                   | 2        |
+| Cinta aislante             | 1        |
 
 ## Esquemático
 
@@ -744,7 +757,7 @@ Mediante la prueba en físico de la práctica, se apreció que la mayor distanci
 ![Estela del flyback obtenida. \label{estela10}](media/practica-10/estela.jfif){width=50%}
 
 ## Conclusiones
-En esta práctica se tuvieron bastantes complicaciones y numerosos contratiempos. Uno de los problemas principales encontrados fue que el transistor no funcionaba correctamente por lo que el flyback no entregaba los resultados que se esperaban, por lo que se colocó un transistor TIP 3055 para resolver el problema. El flyback es un dispositivo que consume mucha corriente y/o voltaje por lo que jamás se debe tocar a menos que el aparato este totalmente descargado y en general es recomendable no tocar ninguna de las partes del transformador flyback ya que se puede producir una fuerte descarga eléctrica y causar daños al cuerpo. 
+En esta práctica se tuvieron bastantes complicaciones y numerosos contratiempos. Uno de los problemas principales encontrados fue que el transistor no funcionaba correctamente por lo que el flyback no entregaba los resultados que se esperaban, por lo que se colocó un transistor TIP 3055 para resolver el problema. El flyback es un dispositivo que consume mucha corriente y/o voltaje por lo que jamás se debe tocar a menos que el aparato este totalmente descargado y en general es recomendable no tocar ninguna de las partes del transformador flyback ya que se puede producir una fuerte descarga eléctrica y causar daños al cuerpo.
 
 \newpage
 # Enlaces
