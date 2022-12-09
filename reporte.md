@@ -512,9 +512,7 @@ Es pertinente explicar los pines de cada compuerta lógica empleada en el circui
 
 Esta estructura para la compuerta NOT es la mayor empleada, comercialmente hablando, la cual el equipo incorporó en el circuito.
 
--------------------- CD4081 ----------------------
 ![4081 07. \label{sch 7}](media/practica-07/4081_Pinout-white.png){width=50%}
-
 
 Esta compuerta tiene la particularidad que funciona en un rango de 12V, los cuales son requeridos en el circuito.
 
