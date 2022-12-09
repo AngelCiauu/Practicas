@@ -643,6 +643,8 @@ El rectificador controlado de silicio es un tipo de tiristor formado por cuatro 
 
 ## Esquemático
 
+![Dimmer 1. \label{Dimmer-09}](media/practica-09/Esquematico9-1.PNG){width=50%}
+
 
 ## Resultados
 
