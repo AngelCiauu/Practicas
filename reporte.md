@@ -508,11 +508,13 @@ El circuito a recrear en la práctica es el siguiente:
 
 Es pertinente explicar los pines de cada compuerta lógica empleada en el circuito, por lo que se enlistan a continuación:
 
--------------------- 74ls04 ----------------------
+![s04 07. \label{sch 7}](media/practica-07/74LS04-PINOUT.png){width=50%}
 
 Esta estructura para la compuerta NOT es la mayor empleada, comercialmente hablando, la cual el equipo incorporó en el circuito.
 
 -------------------- CD4081 ----------------------
+![4081 07. \label{sch 7}](media/practica-07/4081_Pinout-white.png){width=50%}
+
 
 Esta compuerta tiene la particularidad que funciona en un rango de 12V, los cuales son requeridos en el circuito.
 
