@@ -504,7 +504,7 @@ La compuerta AND produce la multiplicación lógica AND, esto es: la salida es 1
 
 El circuito a recrear en la práctica es el siguiente:
 
--------------------- Esquemático de la práctica ----------------------
+![Schematic 07. \label{sch 7}](media/practica-07/Esquematico7-1.PNG){width=50%}
 
 Es pertinente explicar los pines de cada compuerta lógica empleada en el circuito, por lo que se enlistan a continuación:
 
