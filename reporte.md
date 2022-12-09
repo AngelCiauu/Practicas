@@ -5,7 +5,7 @@ author:
 - David Alberto Huchim Sosa
 - Wilberth Eduardo López Gómez
 - Felipe Sánchez Soberanis
-date: 8 de diciembre de 2022
+date: 9 de diciembre de 2022
 
 header-includes: |
     \usepackage{fancyhdr}
@@ -80,27 +80,28 @@ A continuación se muestran los dos circuitos que se realizaron, sólo se agreg�
 
 ### Circuito sin rectificador
 
-![Esquemático 1.1 \label{Esquemático 1.1}](media/practica-01/Esquematico1.PNG)
+![Esquemático del circuito sin rectificador. \label{Esquemático 1.1}](media/practica-01/Esquematico1.PNG)
 
+\newpage
 ### Circuito con rectificador de media onda
 
-![Esquemático 1.2 \label{Esquemático 1.2}](media/practica-01/Esquematico1-1.PNG)
+![Esquemático del circuito con rectificador de medio onda. \label{Esquemático 1.2}](media/practica-01/Esquematico1-1.PNG)
 
 ## Resultados
 
 Se pudo observar mediante la creación del circuito la forma en la que la corriente varía cuando se tiene y cuando no se tiene un diodo rectificador. Debido a la simpleza, se optó por realizar las simulaciones para poder observar el comportamiento de la corriente en ambas situaciones. En la primera se puede observar que el LED recibe tanto la parte negativa como la positiva de la corriente. Cabe recalcar que este dispositivo es un diodo, por ello no se recomienda que absorba el ciclo negativo a través del cátodo, ya que puede disminuir la vida útil del componente. En la siguiente imagen se puede observar que el LED recibe ambas partes de la onda.
 
-![Resultados1.1 \label{Resultados 1.1}](media/practica-01/practica1.jpg)
+![Circuito armado sin rectificador. \label{Resultados 1.1}](media/practica-01/practica1.jpg)
 
 \newpage
-![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.PNG)
+![Simulación sin rectificación. \label{Resultados 1.1}](media/practica-01/Resultado1-1.PNG)
 
 En cambio, al colocar el diodo el LED únicamente recibe la corriente que permite pasar y el lado negativo pasa a través del diodo en paralelo. De esta manera la corriente en el LED se comporta de la manera que se muestra a continuación.
 
 \newpage
-![Resultados1.2 \label{Resultados 1.2}](media/practica-01/practica1_b.jpg){width=50%}
+![Circuito armado con rectificador. \label{Resultados 1.2}](media/practica-01/practica1_b.jpg){width=50%}
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG){width=50%}
+![Simulación con rectificación. \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG){width=50%}
 
 Es de suma importancia conocer el funcionamiento interno de los componentes para realizar el diseño de un circuito. Esto nos permite una mejor comprensión en caso de tener errores o que algo no funcione como se espera. Esta práctica sentó las bases de la interacción de la corriente con los diodos, nos permitió observar de manera gráfica cómo funcionan y la utilidad que presentan en un caso aplicativo.
 
@@ -149,15 +150,16 @@ El símbolo gráfico del SCR se puede apreciar a continuación:
 
 Para esta práctica se tienen 2 incisos, por lo que el inciso a e inciso b, respectivamente, se aprecian en las siguientes ilustraciones:
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-02/Esquematico2-1.PNG)
+![Esquemático del inciso a. \label{Resultados 1.2}](media/practica-02/Esquematico2-1.PNG){width=75%}
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-02/Esquematico2-2.PNG)
+![Esquemático del inciso b.\label{Resultados 1.2}](media/practica-02/Esquematico2-2.PNG){width=75%}
 
 Es importante señalar que para el inciso b, se tenía un esquemático diferente al ilustrado anteriormente, sin embargo, se optó por incorporar este a la práctica debido que éste si cumplía con los resultados esperados.
 
+\newpage
 ## Resultados
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-02/practica2.jpg)
+![Circuito armado. \label{Resultados 1.2}](media/practica-02/practica2.jpg)
 
 Cuando se presiona el botón de abajo, que cumple el funcionamiento de encendido, activa el SCR, permitiendo el flujo de corriente a través del foco y, por ende, encendiéndolo. Finalmente, al presionar el botón de arriba, se genera una equivalencia de voltaje entre ambos de los pines, condición que hace que el SCR se desactive, negando el paso de corriente a través del foco, lo que quiere decir, que lo apaga.
 
@@ -235,9 +237,9 @@ Como se puede observar en la \cref{funcionamiento-on-delay}, cuando se energiza 
 
 ## Resultados
 
-En el inciso a, se logró utilizar el LM555 en su modo monoestable. Esto quiere decir que, combinado con un push button, se logró simular el funcionamiento de un on delay, a pesar de que, en realidad, no lo sea por definición.
+En el inciso a, se logró utilizar el LM555 en su modo monoestable (ver \cref{lm555-monoestable}). Esto quiere decir que, combinado con un push button, se logró simular el funcionamiento de un on delay, a pesar de que, en realidad, no lo sea por definición.
 
-![Inciso a](media/practica-03/practica3.jpg){width=50%}
+![Inciso a. \label{lm555-monoestable}](media/practica-03/practica3.jpg){width=50%}
 
 En el inciso b, se utiliza el LM555 en el modo de retardo de tiempo, específicamente, después de ser energizado, con un valor de 10 segundos. Esto quiere decir que se logra crear un timer on delay con un valor de retardo a la entrada de 10 segundos. Después de probarlo, se obtienen resultados satisfactorios.
 
@@ -551,15 +553,16 @@ La compuerta AND produce la multiplicación lógica AND, esto es: la salida es 1
 
 El circuito a recrear en la práctica es el siguiente:
 
-![Schematic 07. \label{sch 7}](media/practica-07/Esquematico7-1.PNG){width=50%}
+![Esquemático de la práctica 7. \label{sch 7}](media/practica-07/Esquematico7-1.PNG)
 
 Es pertinente explicar los pines de cada compuerta lógica empleada en el circuito, por lo que se enlistan a continuación:
 
-![s04 07. \label{sch 7}](media/practica-07/74LS04-PINOUT.png){width=50%}
+![Pinout del 74LS04. \label{sch 7}](media/practica-07/74LS04-PINOUT.png){width=25%}
 
+\newpage
 Esta estructura para la compuerta NOT es la mayor empleada, comercialmente hablando, la cual el equipo incorporó en el circuito.
 
-![4081 07. \label{sch 7}](media/practica-07/4081_Pinout-white.png){width=50%}
+![Pinout del 4081. \label{sch 7}](media/practica-07/4081_Pinout-white.png){width=25%}
 
 Esta compuerta tiene la particularidad que funciona en un rango de 12V, los cuales son requeridos en el circuito.
 
@@ -627,17 +630,17 @@ Un potenciómetro es un componente electrónico similar a los resistores pero cu
 
 El esquemático de la práctica se visualiza a continuación:
 
-![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Esquematico8-1.PNG){width=50%}
+![Esquemático de la práctica 8. \label{flyback-10}](media/practica-08/Esquematico8-1.PNG){width=50%}
 
 ## Resultados
 
 El circuito se montó en una protoboard tal y como se aprecia en la figura a continuación.
 
-![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8proto.jpg){width=50%}
+![Circuito armado de la práctica 8. \label{flyback-10}](media/practica-08/Practica8proto.jpg){width=50%}
 
 Una vez montado el circuito y realizado el cableado pertinente a corriente alterna y al foco, se procedió a alimentar al circuito, el cual funcionaba de la manera deseada, donde por medio del potenciómetro, podíamos variar la propia luminosidad del foco, cumpliendo con el objetivo de la práctica.
 
-![Dispositivo Flyback. \label{flyback-10}](media/practica-08/Practica8.jpg){width=50%}
+![Circuito en funcionamiento. \label{flyback-10}](media/practica-08/Practica8.jpg){width=50%}
 
 ## Conclusiones
 En esta práctica se pudo entender cómo es el funcionamiento del dimmer y encontrar sus potenciales usos, ya que es un sistema de regulación lumínica. Entender qué es un dimmer no es suficiente para poder utilizarlo, ya que, aunque su función sea muy clara, es necesario contar con luminarias que tengan la posibilidad de ser reguladas para que resulte útil. En definitiva, se trata de un sistema que se puede integrar tanto de forma inalámbrica como a través de cableado en instalaciones como viviendas, oficinas o cualquier otro tipo de espacio que necesite una regulación de la intensidad de sus luminarias.
@@ -679,22 +682,22 @@ El rectificador controlado de silicio es un tipo de tiristor formado por cuatro 
 
 ## Esquemático
 
-![Dimmer 1. \label{Dimmer-09}](media/practica-09/Esquematico9-1.PNG){width=50%}
+![Esquemático de la práctica 9. \label{Dimmer-09}](media/practica-09/Esquematico9-1.PNG){width=50%}
 
 ## Resultados
 
 Para la elaboración de este circuito, se tienen las siguientes conexiones:
 
-![Dimmer 1. \label{Dimmer-09}](media/practica-09/Practica9.jpg){width=50%}
+![Circuito armado de la práctica 9. \label{Dimmer-09}](media/practica-09/Practica9.jpg){width=50%}
 
 Una vez ya alimentado el circuito, se variaron los potenciómetros, de manera que se obtuvo la siguiente gráfica en el osciloscopio.
 
-![Dimmer osc. \label{Dimmerosc-09}](media/practica-09/Practica9osc.jpg){width=50%}
+![Señal de salida del dimmer. \label{Dimmerosc-09}](media/practica-09/Practica9osc.jpg){width=50%}
 
 Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula la parte positiva de la señal, y el otro la negativa, donde se aprecia un recorte independiente mediante diferentes gates presentes en el circuito.
 
 \newpage
-![Dimmer_conexiones. \label{Dimmer_conexiones-09}](media/practica-09/Practica9_completa.jpg){width=50%}
+![Señal de salida del dimmer, en otro ángulo. \label{Dimmer_conexiones-09}](media/practica-09/Practica9_completa.jpg){width=50%}
 
 ## Conclusiones
 
