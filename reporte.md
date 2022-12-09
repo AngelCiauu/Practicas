@@ -654,7 +654,7 @@ Una vez ya alimentado el circuito, se variaron los potenciómetros, de manera qu
 
 ![Dimmer osc. \label{Dimmerosc-09}](media/practica-09/Practica9osc.jpg){width=50%}
 
-Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula . 
+Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula la parte positiva de la señal, y el otro la negativa, donde se aprecia un recorte independiente mediante diferentes gates presentes en el circuito. 
 
 ![Dimmer_conexiones. \label{Dimmer_conexiones-09}](media/practica-09/Practica9_completa.jpg){width=50%}
 
