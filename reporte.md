@@ -520,12 +520,12 @@ Esta compuerta tiene la particularidad que funciona en un rango de 12V, los cual
 
 Al accionar el botón de arriba, el giro del motor es en un sentido horario en nuestro caso, cuando se pulsa el botón de enmedio se detiene el motor y a continuación se presiona el botón de abajo, el cual cambia el sentido de giro a antihorario, donde podemos concluir que el circuito funciona en óptimas condiciones. De igual manera, cabe aclarar que es indiferente si se presiona el botón de giro horario o antihorario de primero, el funcionamiento es el mismo.
 
-![Circuito recreado en el protoboard. \label{proto 7}](media/practica-10/protocircuito7.jfif){width=50%}
+![Circuito recreado en el protoboard. \label{proto 7}](media/practica-07/protocircuito7.jfif){width=50%}
 
 Las conexiones con la fuente de 12V DC y al motor se visualizan en las siguientes imagenes:
 
-![Conexiones del circuito (vista general). \label{circuito 7}](media/practica-10/circuito7.jpg){width=50%}
-![Conexiones del circuito con el motor. \label{motor 7}](media/practica-10/circuito7motor.jpg){width=50%}
+![Conexiones del circuito (vista general). \label{circuito 7}](media/practica-07/circuito7.jpg){width=50%}
+![Conexiones del circuito con el motor. \label{motor 7}](media/practica-07/circuito7motor.jpg){width=50%}
 
 \newpage
 # Práctica 8: Dimmer con Triac
