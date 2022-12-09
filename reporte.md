@@ -120,7 +120,7 @@ En la actualidad, los dispositivos SCR han sido diseñados para controlar potenc
 
 El símbolo gráfico del SCR se puede apreciar a continuación:
 
-![Resultados1.2 \label{Resultados 1.2}](media/practica-02/SCR_sim.jpg)
+![Simbolo SCR \label{Simbolo SCR}](media/practica-02/SCR_sim.jpg)
 
 ## Materiales
 
@@ -213,11 +213,11 @@ Como se puede observar en la \cref{funcionamiento-on-delay}, cuando se energiza 
 
 ## Esquemático
 
-![Inciso a](media/dummy.png){width=25%}
+![Inciso a](media/practica-03/Esquematico3-1.PNG){width=25%}
 
-![Inciso b](media/dummy.png){width=25%}
+![Inciso b](media/practica-03/Esquematico3-2.PNG){width=25%}
 
-![Inciso c](media/dummy.png){width=25%}
+![Inciso c](media/practica-03/Esquematico3-3.PNG){width=25%}
 
 ## Resultados
 
@@ -287,8 +287,6 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 | ITM                     | 1        |
 | Fusible 10A             | 1        |
 
-
-
 ### Inciso c)
 
 |     Componente          | Cantidad |
@@ -304,11 +302,15 @@ Un contactor es un elemento electromecánico que tiene la capacidad de establece
 | ITM                     | 1        |
 | Fusible 10A             | 1        |
 
-
-
-
-
 ## Esquemático
+
+Los esquemáticos de los incisos a, b y c, respectivamente, se enlistan a continuación:
+
+![Inciso a \label{mac223}](media/practica-04/Esquematico4-1.PNG){width=15%}
+
+![Inciso b. \label{mac223}](media/practica-04/Esquematico4-2.PNG){width=15%}
+
+![Inciso c. \label{mac223}](media/practica-04/Esquematico4-3.PNG){width=15%}
 
 ## Resultados
 
@@ -385,7 +387,7 @@ Un interruptor centrífugo es un interruptor eléctrico que funciona con la fuer
 
 ## Esquemático
 
-![Circuito de la práctica 5. \label{practica-05-diagrama}](media/dummy.png){width=50%}
+![Circuito de la práctica 5. \label{practica-05-diagrama}](media/practica-05/Esquematico5-1.PNG){width=50%}
 
 Como se puede observar en la \cref{practica-05-diagrama}, este circuito de dos partes claramente delimitadas por los MOC3011, cumpliendo se debido funcionamiento ideal de separar, dentro de un mismo circuito, la parte de lógica / electrónica de la parte de potencia.
 
@@ -457,7 +459,7 @@ Su funcionamiento consiste en permitir el flujo de energía eléctrica en un sol
 
 ## Esquemático
 
-![Circuito del chopper de la práctica 6.](media/dummy.png){width=25%}
+![Circuito del chopper de la práctica 6.](media/practica-06/Esquematico6-1.PNG){width=25%}
 
 ## Resultados
 
@@ -634,14 +636,27 @@ El rectificador controlado de silicio es un tipo de tiristor formado por cuatro 
 |Potenciómetro 50Kohm       |2         |
 |Resistencia 100 Ohms       |2         |
 |Cap. Electr. 47uF          |1         |
-|TResistencia 10k           |1         |
-|Diodo in4007               |2         |
+|Resistencia 10k            |1         |
+|Diodo 1n4007               |2         |
 |Transformador 12V          |1         |
 
 
 ## Esquemático
 
+
 ## Resultados
+
+Para la elaboración de este circuito, se tienen las siguientes conexiones:
+
+![Dimmer 1. \label{Dimmer-09}](media/practica-09/Practica9.jpg){width=50%}
+
+Una vez ya alimentado el circuito, se variaron los potenciómetros, de manera que se obtuvo la siguiente gráfica en el osciloscopio.
+
+![Dimmer osc. \label{Dimmerosc-09}](media/practica-09/Practica9osc.jpg){width=50%}
+
+Variando los potenciómetros, apreciamos como cambiaba la forma de la senoiodal visualizada en el osciloscopio mediante el giro de los potenciómetros, donde uno regula . 
+
+![Dimmer_conexiones. \label{Dimmer_conexiones-09}](media/practica-09/Practica9_completa.jpg){width=50%}
 
 \newpage
 # Práctica 10: Flyback
