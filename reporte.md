@@ -87,11 +87,13 @@ A continuación se muestran los dos circuitos que se realizaron, sólo se agreg�
 
 Se pudo observar mediante la creación del circuito la forma en la que la corriente varía cuando se tiene y cuando no se tiene un diodo rectificador. Debido a la simpleza, se optó por realizar las simulaciones para poder observar el comportamiento de la corriente en ambas situaciones. En la primera se puede observar que el LED recibe tanto la parte negativa como la positiva de la corriente. Cabe recalcar que este dispositivo es un diodo, por ello no se recomienda que absorba el ciclo negativo a través del cátodo, ya que puede disminuir la vida útil del componente. En la siguiente imagen se puede observar que el LED recibe ambas partes de la onda.
 
+![Resultados1.1 \label{Resultados 1.1}](media/practica-01/practica1.jpg)
+
 ![Resultados1.1 \label{Resultados 1.1}](media/practica-01/Resultado1-1.PNG)
 
-
-
 En cambio, al colocar el diodo el LED únicamente recibe la corriente que permite pasar y el lado negativo pasa a través del diodo en paralelo. De esta manera la corriente en el LED se comporta de la manera que se muestra a continuación.
+
+![Resultados1.2 \label{Resultados 1.2}](media/practica-01/practica1_b.jpg)
 
 ![Resultados1.2 \label{Resultados 1.2}](media/practica-01/Resultado1-2.PNG)
 
@@ -118,8 +120,7 @@ En la actualidad, los dispositivos SCR han sido diseñados para controlar potenc
 
 El símbolo gráfico del SCR se puede apreciar a continuación:
 
----------------- INSERTE IMAGEN DE SIMBOLO SCR --------------------
-
+![Resultados1.2 \label{Resultados 1.2}](media/practica-02/SCR_sim.jpg)
 
 ## Materiales
 
@@ -137,9 +138,17 @@ El símbolo gráfico del SCR se puede apreciar a continuación:
 
 ## Esquemático
 
-IMAGEN DE CIAU
+Para esta práctica se tienen 2 incisos, por lo que el inciso a e inciso b, respectivamente, se aprecian en las siguientes ilustraciones:
+
+![Resultados1.2 \label{Resultados 1.2}](media/practica-02/Esquematico2-1.PNG)
+
+![Resultados1.2 \label{Resultados 1.2}](media/practica-02/Esquematico2-2.PNG)
+
+Es importante señalar que para el inciso b, se tenía un esquemático diferente al ilustrado anteriormente, sin embargo, se optó por incorporar este a la práctica debido que éste si cumplía con los resultados esperados. 
 
 ## Resultados
+
+
 
 \newpage
 # Práctica 3: On Delay 120V
@@ -563,7 +572,7 @@ Un potenciómetro es un componente electrónico similar a los resistores pero cu
 |:-----------------------:|:--------:|
 |Clavija con cable        |1         |
 |ITM                      |1         |
-|Resisetncia 100 Ohms     |1         |
+|Resistencia 100 Ohms     |1         |
 |Potenciómetro 100 K      |1         |
 |Resistencia 47K          |1         |
 |Resistencia 2.2K         |1         |
